@@ -19,7 +19,7 @@ Link: https://adventofcode.com/2018/
 * [Day 15](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day15.java)
 * [Day 16](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day16.java)
 * [Day 17](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day17.java)
-* Day 18 TBD
+* [Day 18](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day18.java)
 * Day 19 TBD
 * Day 20 TBD
 * Day 21 TBD
