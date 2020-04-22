@@ -20,7 +20,7 @@ Link: https://adventofcode.com/2018/
 * [Day 16](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day16.java) - Chronal Classification
 * [Day 17](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day17.java) - Reservoir Research
 * [Day 18](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day18.java) - Settlers Of The North Pole
-* Day 19 TBD
+* [Day 19](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day19.java) - Go With The Flow
 * Day 20 TBD
 * Day 21 TBD
 * Day 22 TBD
