@@ -17,7 +17,7 @@ import java.awt.Point;
 
 //both parts are kinda slow with the giant input (~ 1 minute on my slow
 // notebook), might need to optimize it later
-// the slow performance is caused by the breadh first search for every single room
+// the slow performance is caused by the breadth-first search for every single room
 public class Day20 {
 
     private Set<Point> rooms;
