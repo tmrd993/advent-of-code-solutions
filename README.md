@@ -22,7 +22,7 @@ Link: https://adventofcode.com/2018/
 * [Day 18](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day18.java) - Settlers Of The North Pole
 * [Day 19](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day19.java) - Go With The Flow
 * [Day 20](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day20.java) - A Regular Map
-* Day 21 TBD
+* [Day 21](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day21.java) - Chronal Conversion
 * Day 22 TBD
 * Day 23 TBD
 * Day 24 TBD
