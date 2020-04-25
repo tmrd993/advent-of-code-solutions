@@ -41,6 +41,7 @@ public class Day19 {
     // part 1
     public int run() {
 
+	int count = 0;
 	int instructionPointer = 0;
 	int numOfInstructions = instructions.size();
 
@@ -48,9 +49,16 @@ public class Day19 {
 	    String instructionOpcode = instructionOpcodes.get(instructionPointer);
 	    int[] instruction = instructions.get(instructionPointer);
 	    registers[ipBinding] = instructionPointer;
+	    if(count > 50000000)
+		System.out.println(Arrays.toString(registers) + "  " + instructionOpcode + "  "  + Arrays.toString(instruction) + "  " + count);
 	    executeInstruction(instructionOpcode, instruction, registers);
+	    if(count > 50000000){
+		System.out.println(Arrays.toString(registers) + "  " + instructionOpcode + "  " + Arrays.toString(instruction));
+	    	System.out.println();
+	    }
 	    instructionPointer = registers[ipBinding];
 	    instructionPointer++;
+	    count++;
 	}
 	return registers[0];
     }
@@ -76,7 +84,7 @@ public class Day19 {
 	return sumOfFactors(registers[2]);
     }
 
-    private void executeInstruction(String opcode, int[] instruction, int[] registers) {
+    static void executeInstruction(String opcode, int[] instruction, int[] registers) {
 	if (opcode.equals("addi"))
 	    Day16.addi(registers, instruction);
 	else if (opcode.equals("addr"))
@@ -150,6 +158,10 @@ public class Day19 {
 	    i++;
 	}
 	return sumOfFactors;
+    }
+
+    public void setRegisterZero(int val) {
+	registers[0] = val;
     }
 
     public static void main(String[] args) throws IOException {
