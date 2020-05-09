@@ -25,5 +25,5 @@ Link: https://adventofcode.com/2018/
 * [Day 21](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day21.java) - Chronal Conversion
 * [Day 22](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day22.java) - Mode Maze
 * [Day 23](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day23.java) - Experimental Emergency Teleportation
-* Day 24 TBD
+* [Day 24](https://github.com/tmrd993/Advent-of-Code-2018/blob/master/src/aoc18/Day24.java) - Immune System Simulator 20XX
 * Day 25 TBD
