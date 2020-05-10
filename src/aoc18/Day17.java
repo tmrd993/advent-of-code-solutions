@@ -71,7 +71,7 @@ public class Day17 {
 
     }
 
-    //adds one or two new tails to the queue depending on the
+    //adds one or two new tails to the queue depending on the left and right bounds (walls or water)
     private void splitWater(Point currentPosition) {
 	Point toLeft = new Point(currentPosition.x - 1, currentPosition.y);
 	Point toRight = new Point(currentPosition.x + 1, currentPosition.y);
