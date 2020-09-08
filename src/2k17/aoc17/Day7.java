@@ -11,9 +11,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import myutils2k17.Graph;
-import myutils2k17.Pair;
-import myutils2k17.Program;
+import myutils17.Graph;
+import myutils17.Pair;
+import myutils17.Program;
 
 public class Day7 {
 

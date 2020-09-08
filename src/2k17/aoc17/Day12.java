@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.HashSet;
 import java.util.Set;
 
-import myutils2k17.Graph;
+import myutils17.Graph;
 
 public class Day12 {
 

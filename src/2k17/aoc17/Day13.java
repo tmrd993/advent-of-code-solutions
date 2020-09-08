@@ -2,7 +2,7 @@ package aoc17;
 
 import java.util.Map;
 
-import myutils2k17.SecurityLayer;
+import myutils17.SecurityLayer;
 
 import java.io.File;
 import java.util.HashMap;

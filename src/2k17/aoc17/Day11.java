@@ -3,7 +3,7 @@ package aoc17;
 import java.util.List;
 import java.util.Scanner;
 
-import myutils2k17.Point2d;
+import myutils17.Point2d;
 
 import java.io.File;
 import java.io.IOException;

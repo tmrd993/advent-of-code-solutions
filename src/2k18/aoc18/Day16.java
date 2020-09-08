@@ -28,70 +28,70 @@ public class Day16 {
 
     // @params regs array of 4 numbers. the registers.
     // @params instr array of 4 numbers. the instructions (op code, A, B, C).
-    public void addr(int[] regs, int[] instr) {
+    public static void addr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] + regs[instr[2]];
     }
 
-    public void addi(int[] regs, int[] instr) {
+    public static void addi(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] + instr[2];
     }
 
-    public void mulr(int[] regs, int[] instr) {
+    public static void mulr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] * regs[instr[2]];
     }
 
-    public void muli(int[] regs, int[] instr) {
+    public static void muli(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] * instr[2];
     }
 
     // bitwise AND
-    public void banr(int[] regs, int[] instr) {
+    public static void banr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] & regs[instr[2]];
     }
 
-    public void bani(int[] regs, int[] instr) {
+    public static void bani(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] & instr[2];
     }
 
     // bitwise OR
-    public void borr(int[] regs, int[] instr) {
+    public static void borr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] | regs[instr[2]];
     }
 
-    public void bori(int[] regs, int[] instr) {
+    public static void bori(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] | instr[2];
     }
 
     // set value
-    public void setr(int[] regs, int[] instr) {
+    public static void setr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]];
     }
 
-    public void seti(int[] regs, int[] instr) {
+    public static void seti(int[] regs, int[] instr) {
 	regs[instr[3]] = instr[1];
     }
 
-    public void gtir(int[] regs, int[] instr) {
+    public static void gtir(int[] regs, int[] instr) {
 	regs[instr[3]] = instr[1] > regs[instr[2]] ? 1 : 0;
     }
 
-    public void gtri(int[] regs, int[] instr) {
+    public static void gtri(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] > instr[2] ? 1 : 0;
     }
 
-    public void gtrr(int[] regs, int[] instr) {
+    public static void gtrr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] > regs[instr[2]] ? 1 : 0;
     }
 
-    public void eqir(int[] regs, int[] instr) {
+    public static void eqir(int[] regs, int[] instr) {
 	regs[instr[3]] = instr[1] == regs[instr[2]] ? 1 : 0;
     }
 
-    public void eqri(int[] regs, int[] instr) {
+    public static void eqri(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] == instr[2] ? 1 : 0;
     }
 
-    public void eqrr(int[] regs, int[] instr) {
+    public static void eqrr(int[] regs, int[] instr) {
 	regs[instr[3]] = regs[instr[1]] == regs[instr[2]] ? 1 : 0;
     }
 

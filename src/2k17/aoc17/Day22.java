@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import myutils2k17.Point2d;
-import myutils2k17.VirusCarrier;
+import myutils17.Point2d;
+import myutils17.VirusCarrier;
 
 public class Day22 {
 

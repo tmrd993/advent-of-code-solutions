@@ -1,4 +1,4 @@
-package myutils2k17;
+package myutils17;
 
 //Doubly linked list implementation
 //exposes head and tail Nodes for O(1) insertion

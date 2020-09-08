@@ -1,4 +1,4 @@
-package myutils;
+package myutils18;
 
 //Doubly linked list implementation (specifically for day 9 part 2)
 //exposes head and tail Nodes for O(1) insertion

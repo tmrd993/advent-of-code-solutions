@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.List;
 
-import myutils2k17.Particle;
-import myutils2k17.Triple;
+import myutils17.Particle;
+import myutils17.Triple;
 
 import java.util.ArrayList;
 import java.util.Arrays;

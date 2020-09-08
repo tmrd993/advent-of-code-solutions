@@ -2,9 +2,9 @@ package aoc17;
 
 import java.util.Map;
 
-import myutils2k17.NetworkPacket;
-import myutils2k17.Point2d;
-import myutils2k17.NetworkPacket.Direction;
+import myutils17.NetworkPacket;
+import myutils17.Point2d;
+import myutils17.NetworkPacket.Direction;
 
 import java.util.HashMap;
 import java.io.BufferedReader;

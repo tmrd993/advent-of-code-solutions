@@ -2,8 +2,8 @@ package aoc18;
 
 import java.util.Stack;
 
-import myutils.DoublyLinkedList;
-import myutils.DoublyLinkedList.Node;
+import myutils18.DoublyLinkedList;
+import myutils18.DoublyLinkedList.Node;
 
 public class Day14 {
 

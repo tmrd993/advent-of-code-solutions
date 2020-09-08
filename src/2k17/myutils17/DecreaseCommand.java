@@ -1,4 +1,4 @@
-package myutils2k17;
+package myutils17;
 
 import java.util.Map;
 

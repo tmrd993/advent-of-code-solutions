@@ -3,7 +3,7 @@ package aoc17;
 import java.util.HashSet;
 import java.util.Set;
 
-import myutils2k17.Point2d;
+import myutils17.Point2d;
 
 public class Day14 {
 

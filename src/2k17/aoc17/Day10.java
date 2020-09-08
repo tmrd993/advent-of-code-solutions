@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import myutils2k17.CircularLinkedList;
+import myutils17.CircularLinkedList;
 
 public class Day10 {
 

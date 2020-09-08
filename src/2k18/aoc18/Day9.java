@@ -3,8 +3,8 @@ package aoc18;
 import java.util.ArrayList;
 import java.util.Map;
 
-import myutils.DoublyLinkedList;
-import myutils.DoublyLinkedList.Node;
+import myutils18.DoublyLinkedList;
+import myutils18.DoublyLinkedList.Node;
 
 public class Day9 {
     private int playerCount;

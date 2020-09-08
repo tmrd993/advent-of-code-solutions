@@ -1,6 +1,6 @@
 package aoc17;
 
-import myutils2k17.CircularLinkedList;
+import myutils17.CircularLinkedList;
 
 public class Day17 {
 

@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import myutils2k17.CustomString;
+import myutils17.CustomString;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import myutils.ImmuneSystemGroup.Type;
-import myutils.ImmuneSystemGroup;
+import myutils18.ImmuneSystemGroup.Type;
+import myutils18.ImmuneSystemGroup;
 
 public class Day24 {
 
