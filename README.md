@@ -1,3 +1,35 @@
+# Advent-of-Code-2017
+Solutions to the Advent of Code 2017 challenge in Java    
+Link: https://adventofcode.com/2017/  
+## Days:  
+| Link to source code | Name | Link to BP |
+|---|---|---|
+|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day1.java) | Inverse Captcha |[Blog Post](https://adventofcode.com/2017/day/1) |
+|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day2.java) | Corruption Checksum | [Blog Post](https://adventofcode.com/2017/day/2)|
+|[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day3.java) | Spiral Memory | [Blog Post](https://adventofcode.com/2017/day/3)|
+|[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day4.java) | High-Entropy Passphrases | [Blog Post](https://adventofcode.com/2017/day/4)|
+|[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day5.java) | A Maze of Twisty Trampolines, All Alike | [Blog Post](https://adventofcode.com/2017/day/5)|
+|[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day6.java) | Memory Reallocation | [Blog Post](https://adventofcode.com/2017/day/6)|
+|[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day7.java) | Recursive Circus | [Blog Post](https://adventofcode.com/2017/day/7)|
+|[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day8.java) | I Heard You Like Registers | [Blog Post](https://adventofcode.com/2017/day/8)|
+|[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day9.java) | Stream Processing | [Blog Post](https://adventofcode.com/2017/day/9)|
+|[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day10.java) | Knot Hash | [Blog Post](https://adventofcode.com/2017/day/10)|
+|[Day 11](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day11.java) | Hex Ed | [Blog Post](https://adventofcode.com/2017/day/11)|
+|[Day 12](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day12.java) | Digital Plumber | [Blog Post](https://adventofcode.com/2017/day/12)|
+|[Day 13](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day13.java) | Packet Scanners | [Blog Post](https://adventofcode.com/2017/day/13)|
+|[Day 14](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day14.java) | Disk Defragmentation | [Blog Post](https://adventofcode.com/2017/day/14)|
+|[Day 15](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day15.java) | Dueling Generators | [Blog Post](https://adventofcode.com/2017/day/15)|
+|[Day 16](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day16.java) | Permutation Promenade | [Blog Post](https://adventofcode.com/2017/day/16)|
+|[Day 17](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day17.java) | Spinlock | [Blog Post](https://adventofcode.com/2017/day/17)|
+|[Day 18](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day18.java) | Duet | [Blog Post](https://adventofcode.com/2017/day/18)|
+|[Day 19](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day19.java) | A Series Of Tubes | [Blog Post](https://adventofcode.com/2017/day/19)|
+|[Day 20](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day20.java) | Particle Swarm | [Blog Post](https://adventofcode.com/2017/day/20)|
+|[Day 21](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day21.java) | Fractal Art | [Blog Post](https://adventofcode.com/2017/day/21)|
+|[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day22.java) | Sporifica Virus | [Blog Post](https://adventofcode.com/2017/day/22)|
+|[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day23.java) | Coprocessor Conflagration | [Blog Post](https://adventofcode.com/2017/day/23)|
+|[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day24.java) | Electromagnetic Moat | [Blog Post](https://adventofcode.com/2017/day/24)|
+|[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day25.java) | The Halting Problem | [Blog Post](https://adventofcode.com/2017/day/25)|  
+
 # Advent-of-Code-2018
 Solutions to the Advent of Code 2018 challenge in Java    
 Link: https://adventofcode.com/2018/  
