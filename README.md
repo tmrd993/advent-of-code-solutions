@@ -60,4 +60,36 @@ Link: https://adventofcode.com/2018/
 |[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day22.java) | Mode Maze | [Blog Post](https://adventofcode.com/2018/day/22)|
 |[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day23.java) | Experimental Emergency Teleportation | [Blog Post](https://adventofcode.com/2018/day/23)|
 |[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day24.java) | Immune System Simulator 20XX | [Blog Post](https://adventofcode.com/2018/day/24)|
-|[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day25.java) | Four Dimensional Adventure | [Blog Post](https://adventofcode.com/2018/day/25)|
+|[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day25.java) | Four Dimensional Adventure | [Blog Post](https://adventofcode.com/2018/day/25)|  
+
+# Advent-of-Code-2019
+Solutions to the Advent of Code 2019 challenge in Java    
+Link: https://adventofcode.com/2019/  
+## Days:  
+| Link to source code | Name | Link to BP |
+|---|---|---|
+|[TBD]() | The Tyranny of the Rocket Equation |[Blog Post](https://adventofcode.com/2019/day/1) |
+|[TBD]() | 1202 Program Alarm | [Blog Post](https://adventofcode.com/2019/day/2)|
+|[TBD]() | Crossed Wires | [Blog Post](https://adventofcode.com/2019/day/3)|
+|[TBD]() | Secure Container | [Blog Post](https://adventofcode.com/2019/day/4)|
+|[TBD]() | Sunny with a Chance of Asteroids | [Blog Post](https://adventofcode.com/2019/day/5)|
+|[TBD]() | Universal Orbit Map | [Blog Post](https://adventofcode.com/2019/day/6)|
+|[TBD]() | Amplification Circuit | [Blog Post](https://adventofcode.com/2019/day/7)|
+|[TBD]() | Space Image Format | [Blog Post](https://adventofcode.com/2019/day/8)|
+|[TBD]() | Sensor Boost | [Blog Post](https://adventofcode.com/2019/day/9)|
+|[TBD]() | Monitoring Station | [Blog Post](https://adventofcode.com/2019/day/10)|
+|[TBD]() | Space Police | [Blog Post](https://adventofcode.com/2019/day/11)|
+|[TBD]() | The N-Body Problem | [Blog Post](https://adventofcode.com/2019/day/12)|
+|[TBD]() | Care Package | [Blog Post](https://adventofcode.com/2019/day/13)|
+|[TBD]() | Space Stoichiometry | [Blog Post](https://adventofcode.com/2019/day/14)|
+|[TBD]() | Oxygen System | [Blog Post](https://adventofcode.com/2019/day/15)|
+|[TBD]() | Flawed Frequency Transmission | [Blog Post](https://adventofcode.com/2019/day/16)|
+|[TBD]() | Set and Forget | [Blog Post](https://adventofcode.com/2019/day/17)|
+|[TBD]() | Many-Worlds Interpretation | [Blog Post](https://adventofcode.com/2019/day/18)|
+|[TBD]() | Tractor Beam | [Blog Post](https://adventofcode.com/2019/day/19)|
+|[TBD]() | Donut Maze | [Blog Post](https://adventofcode.com/2019/day/20)|
+|[TBD]() | Springdroid Adventure | [Blog Post](https://adventofcode.com/2019/day/21)|
+|[TBD]() | Slam Shuffle | [Blog Post](https://adventofcode.com/2019/day/22)|
+|[TBD]() | Category Six | [Blog Post](https://adventofcode.com/2019/day/23)|
+|[TBD]() | Planet of Discord | [Blog Post](https://adventofcode.com/2019/day/24)|
+|[TBD]() | Cryostasis | [Blog Post](https://adventofcode.com/2019/day/25)|
