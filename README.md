@@ -71,8 +71,8 @@ Link: https://adventofcode.com/2019/
 ## Days:  
 | Link to source code | Name | Link to BP |
 |---|---|---|
-|[TBD] | The Tyranny of the Rocket Equation |[Blog Post](https://adventofcode.com/2019/day/1) |
-|[TBD] | 1202 Program Alarm | [Blog Post](https://adventofcode.com/2019/day/2)|
+|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day1.java) | The Tyranny of the Rocket Equation |[Blog Post](https://adventofcode.com/2019/day/1) |
+|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day2.java) | 1202 Program Alarm | [Blog Post](https://adventofcode.com/2019/day/2)|
 |[TBD] | Crossed Wires | [Blog Post](https://adventofcode.com/2019/day/3)|
 |[TBD] | Secure Container | [Blog Post](https://adventofcode.com/2019/day/4)|
 |[TBD] | Sunny with a Chance of Asteroids | [Blog Post](https://adventofcode.com/2019/day/5)|
