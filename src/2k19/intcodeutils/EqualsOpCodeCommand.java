@@ -4,17 +4,17 @@ import java.util.List;
 
 import myutils19.IntCodeComputer;
 
-public class MultiplyOpCodeCommand implements OpCodeCommand {
+public class EqualsOpCodeCommand implements OpCodeCommand {
     private List<Integer> program;
-    private final int multiplySkipCount = 4;
+    private int equalsSkipCount = 4;
     private final int index;
-    private final ParameterMode a;
-    private final ParameterMode b;
     private final ParameterMode c;
-    private final int id = 2;
+    private final ParameterMode b;
+    private final ParameterMode a;
     private final ParameterModeParser parser;
-
-    public MultiplyOpCodeCommand(IntCodeComputer computer, ParameterMode a, ParameterMode b, ParameterMode c) {
+    private final int id = 8;
+    
+    public EqualsOpCodeCommand(IntCodeComputer computer, ParameterMode a, ParameterMode b, ParameterMode c) {
 	program = computer.program();
 	index = computer.instructionPointer();
 	this.a = a;
@@ -25,25 +25,28 @@ public class MultiplyOpCodeCommand implements OpCodeCommand {
 
     @Override
     public void execute() {
-	// c
 	int pos1 = parser.getTargetIndex(c, index + 1, program.get(index + 1));
-	// b
 	int pos2 = parser.getTargetIndex(b, index + 2, program.get(index + 2));
-	// a
 	int targetPos = parser.getTargetIndex(a, index + 3, program.get(index + 3));
-	int valAtPos1 = program.get(pos1);
-	int valAtPos2 = program.get(pos2);
-	program.set(targetPos, valAtPos1 * valAtPos2);
+	
+	int val1 = program.get(pos1);
+	int val2 = program.get(pos2);
+	
+	if(val1 == val2) {
+	    program.set(targetPos, 1);
+	}
+	else {
+	    program.set(targetPos, 0);
+	}
     }
 
     @Override
     public int moveInstructionPointer() {
-	return index + multiplySkipCount;
+	return index + equalsSkipCount;
     }
 
     @Override
     public int opCodeId() {
 	return id;
     }
-
 }

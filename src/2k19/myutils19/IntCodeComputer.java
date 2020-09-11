@@ -36,12 +36,16 @@ public class IntCodeComputer {
 	program.set(index, value);
     }
     
+    public int instructionPointer() {
+	return instructionPointer;
+    }
+    
     public void run() {
 	while(!halt) {
-	    int opCode = program.get(instructionPointer);
-	    OpCodeCommand command = OpCodeCommandFactory.getCommand(opCode, this, instructionPointer);
+	    int instruction = program.get(instructionPointer);
+	    OpCodeCommand command = OpCodeCommandFactory.getCommand(instruction, this, instructionPointer);
 	    command.execute();
-	    instructionPointer += command.skipCount();
+	    instructionPointer = command.moveInstructionPointer();
 	}
     }
 

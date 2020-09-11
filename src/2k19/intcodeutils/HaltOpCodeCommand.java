@@ -5,7 +5,7 @@ import myutils19.IntCodeComputer;
 public class HaltOpCodeCommand implements OpCodeCommand {
     private IntCodeComputer computer;
     private final int haltSkipCount = 0;
-    //private final int id = 99;
+    private final int id = 99;
     
     public HaltOpCodeCommand(IntCodeComputer computer) {
 	this.computer = computer;
@@ -17,8 +17,13 @@ public class HaltOpCodeCommand implements OpCodeCommand {
     }
 
     @Override
-    public int skipCount() {
-	return haltSkipCount;
+    public int moveInstructionPointer() {
+	return computer.instructionPointer() + haltSkipCount;
+    }
+    
+    @Override
+    public int opCodeId() {
+	return id;
     }
 
 }

@@ -71,11 +71,11 @@ Link: https://adventofcode.com/2019/
 ## Days:  
 | Link to source code | Name | Link to BP |
 |---|---|---|
-|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day1.java) | The Tyranny of the Rocket Equation |[Blog Post](https://adventofcode.com/2019/day/1) |
-|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc18/Day2.java) | 1202 Program Alarm | [Blog Post](https://adventofcode.com/2019/day/2)|
-|[TBD] | Crossed Wires | [Blog Post](https://adventofcode.com/2019/day/3)|
-|[TBD] | Secure Container | [Blog Post](https://adventofcode.com/2019/day/4)|
-|[TBD] | Sunny with a Chance of Asteroids | [Blog Post](https://adventofcode.com/2019/day/5)|
+|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day1.java) | The Tyranny of the Rocket Equation |[Blog Post](https://adventofcode.com/2019/day/1) |
+|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day2.java) | 1202 Program Alarm | [Blog Post](https://adventofcode.com/2019/day/2)|
+|[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day3.java) | Crossed Wires | [Blog Post](https://adventofcode.com/2019/day/3)|
+|[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day4.java) | Secure Container | [Blog Post](https://adventofcode.com/2019/day/4)|
+|[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day5.java) | Sunny with a Chance of Asteroids | [Blog Post](https://adventofcode.com/2019/day/5)|
 |[TBD] | Universal Orbit Map | [Blog Post](https://adventofcode.com/2019/day/6)|
 |[TBD] | Amplification Circuit | [Blog Post](https://adventofcode.com/2019/day/7)|
 |[TBD] | Space Image Format | [Blog Post](https://adventofcode.com/2019/day/8)|

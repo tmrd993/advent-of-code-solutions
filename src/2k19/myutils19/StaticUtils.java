@@ -44,4 +44,16 @@ public class StaticUtils {
 	}
 	return nums;
     }
+    
+    
+    public static int distanceL1(Point2d p1, Point2d p2) {
+	return Math.abs(p1.x() - p2.x()) + Math.abs(p1.y() - p2.y());
+    }
+    
+    public static String padWithZeroToLengthFive(String str) {
+	while(str.length() < 5) {
+	    str = "0" + str;
+	}
+	return str;
+    }
 }
