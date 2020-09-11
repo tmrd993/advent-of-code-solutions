@@ -40,7 +40,7 @@ public class Day2 {
 
     public static void main(String[] args) {
 	Day2 test = new Day2(new File("C:\\Users\\Timucin\\Desktop\\Advent of code 2019\\Day 2\\InputFile.txt"));
-	System.out.println(test.run1());
+	System.out.println(test.run2());
 
     }
 

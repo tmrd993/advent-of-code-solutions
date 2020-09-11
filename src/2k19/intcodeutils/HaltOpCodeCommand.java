@@ -14,6 +14,7 @@ public class HaltOpCodeCommand implements OpCodeCommand {
     @Override
     public void execute() {
 	computer.setHalt();
+	//System.out.println(computer + " halted");
     }
 
     @Override

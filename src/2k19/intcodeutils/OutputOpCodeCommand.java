@@ -10,9 +10,11 @@ public class OutputOpCodeCommand implements OpCodeCommand {
     private final int index;
     private final ParameterMode c;
     private final ParameterModeParser parser;
+    private final IntCodeComputer computer;
     private final int id = 4;
     
     public OutputOpCodeCommand(IntCodeComputer computer, ParameterMode c) {
+	this.computer = computer;
 	program = computer.program();
 	index = computer.instructionPointer();
 	this.c = c;
@@ -22,7 +24,9 @@ public class OutputOpCodeCommand implements OpCodeCommand {
     @Override
     public void execute() {
 	int targetPos = parser.getTargetIndex(c, index + 1, program.get(index + 1));
-	System.out.println("Opcode 4 detected, output: " + program.get(targetPos));
+	int outputVal = program.get(targetPos);
+	computer.saveOutputValue(outputVal);
+	//System.out.println("Opcode 4 detected, output: " + outputVal);
     }
 
     @Override

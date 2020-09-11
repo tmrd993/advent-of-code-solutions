@@ -76,11 +76,8 @@ Link: https://adventofcode.com/2019/
 |[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day3.java) | Crossed Wires | [Blog Post](https://adventofcode.com/2019/day/3)|
 |[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day4.java) | Secure Container | [Blog Post](https://adventofcode.com/2019/day/4)|
 |[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day5.java) | Sunny with a Chance of Asteroids | [Blog Post](https://adventofcode.com/2019/day/5)|
-|[TBD] | Crossed Wires | [Blog Post](https://adventofcode.com/2019/day/3)|
-|[TBD] | Secure Container | [Blog Post](https://adventofcode.com/2019/day/4)|
-|[TBD] | Sunny with a Chance of Asteroids | [Blog Post](https://adventofcode.com/2019/day/5)|
-|[TBD] | Universal Orbit Map | [Blog Post](https://adventofcode.com/2019/day/6)|
-|[TBD] | Amplification Circuit | [Blog Post](https://adventofcode.com/2019/day/7)|
+|[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day6.java) | Universal Orbit Map | [Blog Post](https://adventofcode.com/2019/day/6)|
+|[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day7.java) | Amplification Circuit | [Blog Post](https://adventofcode.com/2019/day/7)|
 |[TBD] | Space Image Format | [Blog Post](https://adventofcode.com/2019/day/8)|
 |[TBD] | Sensor Boost | [Blog Post](https://adventofcode.com/2019/day/9)|
 |[TBD] | Monitoring Station | [Blog Post](https://adventofcode.com/2019/day/10)|

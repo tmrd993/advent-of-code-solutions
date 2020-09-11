@@ -34,7 +34,7 @@ public class OpCodeCommandFactory {
 	case 99:
 	    return new HaltOpCodeCommand(computer);
 	default:
-	    throw new IllegalArgumentException("Supplied op-code " + opCode + " is not mapped to any action");
+	    throw new IllegalArgumentException("Supplied op-code " + opCode + ", contained inside instruction " + instruction + " is not mapped to any action");
 	}
     }
     

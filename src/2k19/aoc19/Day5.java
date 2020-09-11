@@ -15,12 +15,14 @@ public class Day5 {
 	opCodeProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
     }
 
-    // provide val 1 for solution part 1, val 5 for solution part 2
+    
     public int run() {
 	List<Integer> defensiveCopyProgram = new ArrayList<>(opCodeProgram);
 	IntCodeComputer computer = new IntCodeComputer(defensiveCopyProgram);
+	// provide val 1 for solution part 1, val 5 for solution part 2
+	computer.setInputValues(5);
 	computer.run();
-	return 0;
+	return computer.mostRecentOutputValue().get();
     }
 
     public static void main(String[] args) {
