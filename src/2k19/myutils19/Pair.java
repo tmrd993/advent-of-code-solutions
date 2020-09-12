@@ -1,7 +1,5 @@
 package myutils19;
 
-import java.util.Objects;
-
 public class Pair <K, V> {
     private K k;
     private V v;

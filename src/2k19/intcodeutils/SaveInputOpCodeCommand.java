@@ -1,22 +1,21 @@
 package intcodeutils;
 
-import java.util.List;
 import java.util.Queue;
 
 import myutils19.IntCodeComputer;
 
 public class SaveInputOpCodeCommand implements OpCodeCommand {
-    private List<Integer> program;
+    private IntCodeComputer computer;
     private final int saveInputSkipCount = 2;
-    private int index;
+    private long index;
     private final ParameterMode c;
     private final ParameterModeParser parser;
-    private final IntCodeComputer computer;
+    private final IntCodeMemory memory;
     private final int id = 3;
 
     public SaveInputOpCodeCommand(IntCodeComputer computer, ParameterMode c) {
 	this.computer = computer;
-	program = computer.program();
+	memory = computer.memory();
 	index = computer.instructionPointer();
 	this.c = c;
 	parser = ParameterModeParser.getInstance();
@@ -24,8 +23,8 @@ public class SaveInputOpCodeCommand implements OpCodeCommand {
 
     @Override
     public void execute() {
-	int targetPos = parser.getTargetIndex(c, index + 1, program.get(index + 1));
-	Queue<Integer> inputValues = computer.inputValues();
+	long targetPos = parser.getTargetIndex(c, index + 1, memory.get(index + 1), memory.get(index + 1) + computer.relativeBase());
+	Queue<Long> inputValues = computer.inputValues();
 
 	// reset the instruction pointer if no input available
 	if(inputValues.isEmpty()) {
@@ -34,14 +33,14 @@ public class SaveInputOpCodeCommand implements OpCodeCommand {
 	    //System.out.println(computer + "   paused");
 	}
 	else {
-	    int inputValue = inputValues.poll();
-	    program.set(targetPos, inputValue);
+	    long inputValue = inputValues.poll();
+	    memory.set(targetPos, inputValue);
 	}
 	
     }
 
     @Override
-    public int moveInstructionPointer() {
+    public long moveInstructionPointer() {
 	return index + saveInputSkipCount;
     }
 

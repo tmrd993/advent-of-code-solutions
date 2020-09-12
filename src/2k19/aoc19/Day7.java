@@ -16,14 +16,14 @@ public class Day7 {
 	initialProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
     }
 
-    public int run1() {
+    public long run1() {
 	int[] possiblePhaseVals = new int[] { 0, 1, 2, 3, 4 };
 	List<List<Integer>> phaseValPermutations = StaticUtils.permutations(possiblePhaseVals);
 
-	int maxThrusterStrength = 0;
+	long maxThrusterStrength = 0;
 	for (List<Integer> phasePermutation : phaseValPermutations) {
 	    List<IntCodeComputer> computers = getComputers();
-	    int outputValue = 0;
+	    long outputValue = 0;
 	    for (int i = 0; i < computers.size(); i++) {
 		IntCodeComputer computer = computers.get(i);
 		computer.setInputValues(phasePermutation.get(i), outputValue);
@@ -37,17 +37,17 @@ public class Day7 {
 	return maxThrusterStrength;
     }
 
-    public int run2() {
+    public long run2() {
 	int[] possiblePhaseVals = new int[] { 5, 6, 7, 8, 9 };
 	List<List<Integer>> phaseValPermutations = StaticUtils.permutations(possiblePhaseVals);
 
-	int maxThrusterStrength = 0;
+	long maxThrusterStrength = 0;
 	for (List<Integer> phaseVals : phaseValPermutations) {
 	    List<IntCodeComputer> computers = getComputers();
 	    IntCodeComputer computerE = computers.get(numOfComputers - 1);
 	    phaseInit(computers, phaseVals);
 	    int index = 0;
-	    int outputVal = 0;
+	    long outputVal = 0;
 	    while (!computerE.isShutdown()) {
 		IntCodeComputer computer = computers.get(index % numOfComputers);
 		computer.setInputValues(outputVal);
@@ -55,7 +55,7 @@ public class Day7 {
 		outputVal = computer.mostRecentOutputValue().get();
 		index++;
 	    }
-	    int thrusterOutput = computerE.mostRecentOutputValue().get();
+	    long thrusterOutput = computerE.mostRecentOutputValue().get();
 	    if(thrusterOutput > maxThrusterStrength) {
 		maxThrusterStrength = thrusterOutput;
 	    }

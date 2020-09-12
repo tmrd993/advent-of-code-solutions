@@ -45,6 +45,21 @@ public class StaticUtils {
 	}
 	return nums;
     }
+    
+    public static List<Integer> digitFileToList(File input) {
+	List<Integer> digits = new ArrayList<>();
+	try {
+	    BufferedReader br = new BufferedReader(new FileReader(input));
+	    String line = "";
+	    while((line = br.readLine()) != null) {
+		line.chars().map(c -> (char) c).forEach(c-> digits.add(Character.getNumericValue(c)));
+	    }
+	    br.close();
+	} catch (IOException e) {
+	    e.printStackTrace();
+	}
+	return digits;
+    }
 
     public static int distanceL1(Point2d p1, Point2d p2) {
 	return Math.abs(p1.x() - p2.x()) + Math.abs(p1.y() - p2.y());

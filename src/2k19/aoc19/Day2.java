@@ -15,13 +15,13 @@ public class Day2 {
 	opCodeProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
     }
 
-    public int run1() {
+    public long run1() {
 	List<Integer> program = new ArrayList<>(opCodeProgram);
 	IntCodeComputer computer = new IntCodeComputer(program);
 	computer.replace(1, 12);
 	computer.replace(2, 2);
 	computer.run();
-	return computer.program().get(0);
+	return computer.memory().get(0);
     }
     
     public int run2() {
@@ -30,7 +30,7 @@ public class Day2 {
 		List<Integer> program = new ArrayList<>(opCodeProgram);
 		IntCodeComputer computer = new IntCodeComputer(program, i, j);
 		computer.run();
-		if(computer.program().get(0) == targetPart2) {
+		if(computer.memory().get(0) == targetPart2) {
 		    return (100 * i) + j;
 		}
 	    }

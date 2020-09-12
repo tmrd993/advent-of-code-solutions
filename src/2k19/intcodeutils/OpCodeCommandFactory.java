@@ -7,7 +7,7 @@ public class OpCodeCommandFactory {
     
     private OpCodeCommandFactory() {};
     
-    public static OpCodeCommand getCommand(int instruction, IntCodeComputer computer, int index) {
+    public static OpCodeCommand getCommand(long instruction, IntCodeComputer computer) {
 	String instrStr = StaticUtils.padWithZeroToLengthFive(String.valueOf(instruction));
 	int opCode = Integer.parseInt(instrStr.substring(3, 5));
 	ParameterMode a = ParameterMode.of(Character.getNumericValue(instrStr.charAt(0)));
@@ -31,6 +31,8 @@ public class OpCodeCommandFactory {
 	    return new LessThanOpCodeCommand(computer, a, b, c);
 	case 8:
 	    return new EqualsOpCodeCommand(computer, a, b, c);
+	case 9:
+	    return new AdjustRelativeBaseOpCodeCommand(computer, c);
 	case 99:
 	    return new HaltOpCodeCommand(computer);
 	default:

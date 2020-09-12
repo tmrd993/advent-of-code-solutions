@@ -2,6 +2,6 @@ package intcodeutils;
 
 public interface OpCodeCommand {
     public void execute();
-    public int moveInstructionPointer();
+    public long moveInstructionPointer();
     public int opCodeId();
 }

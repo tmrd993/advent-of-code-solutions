@@ -5,7 +5,8 @@ import java.util.HashMap;
 
 public enum ParameterMode {
     POSITION(0, "Position"),
-    IMMEDIATE(1, "Immediate");
+    IMMEDIATE(1, "Immediate"),
+    RELATIVE(2, "Relative");
     
     private static final Map<Integer, ParameterMode> parameterModes = new HashMap<>(values().length, 1);
     

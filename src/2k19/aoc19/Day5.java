@@ -16,7 +16,7 @@ public class Day5 {
     }
 
     
-    public int run() {
+    public long run() {
 	List<Integer> defensiveCopyProgram = new ArrayList<>(opCodeProgram);
 	IntCodeComputer computer = new IntCodeComputer(defensiveCopyProgram);
 	// provide val 1 for solution part 1, val 5 for solution part 2

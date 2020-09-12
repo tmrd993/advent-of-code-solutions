@@ -13,12 +13,14 @@ public class ParameterModeParser {
 	return parser;
     }
     
-    public int getTargetIndex(ParameterMode pm, int currentIndex, int valueAtCurrentIndex) {
+    public long getTargetIndex(ParameterMode pm, long currentIndex, long valueAtCurrentIndex, long valueAtRelativeBase) {
 	switch(pm) {
 	case POSITION:
 	    return valueAtCurrentIndex;
 	case IMMEDIATE:
 	    return currentIndex;
+	case RELATIVE:
+	    return valueAtRelativeBase;
 	}
 	throw new IllegalArgumentException("The supplied parameter mode " + pm.toString() + " is unsupported");
     }

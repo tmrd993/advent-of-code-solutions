@@ -1,21 +1,21 @@
 package intcodeutils;
 
-import java.util.List;
-
 import myutils19.IntCodeComputer;
 
 public class MultiplyOpCodeCommand implements OpCodeCommand {
-    private List<Integer> program;
+    private IntCodeMemory memory;
     private final int multiplySkipCount = 4;
-    private final int index;
+    private final long index;
     private final ParameterMode a;
     private final ParameterMode b;
     private final ParameterMode c;
+    private final IntCodeComputer computer;
     private final int id = 2;
     private final ParameterModeParser parser;
 
     public MultiplyOpCodeCommand(IntCodeComputer computer, ParameterMode a, ParameterMode b, ParameterMode c) {
-	program = computer.program();
+	memory = computer.memory();
+	this.computer = computer;
 	index = computer.instructionPointer();
 	this.a = a;
 	this.b = b;
@@ -26,18 +26,22 @@ public class MultiplyOpCodeCommand implements OpCodeCommand {
     @Override
     public void execute() {
 	// c
-	int pos1 = parser.getTargetIndex(c, index + 1, program.get(index + 1));
+	long pos1 = parser.getTargetIndex(c, index + 1, memory.get(index + 1),
+		memory.get(index + 1) + computer.relativeBase());
 	// b
-	int pos2 = parser.getTargetIndex(b, index + 2, program.get(index + 2));
+	long pos2 = parser.getTargetIndex(b, index + 2, memory.get(index + 2),
+		memory.get(index + 2) + computer.relativeBase());
 	// a
-	int targetPos = parser.getTargetIndex(a, index + 3, program.get(index + 3));
-	int valAtPos1 = program.get(pos1);
-	int valAtPos2 = program.get(pos2);
-	program.set(targetPos, valAtPos1 * valAtPos2);
+	long targetPos = parser.getTargetIndex(a, index + 3, memory.get(index + 3),
+		memory.get(index + 3) + computer.relativeBase());
+
+	long valAtPos1 = memory.get(pos1);
+	long valAtPos2 = memory.get(pos2);
+	memory.set(targetPos, valAtPos1 * valAtPos2);
     }
 
     @Override
-    public int moveInstructionPointer() {
+    public long moveInstructionPointer() {
 	return index + multiplySkipCount;
     }
 

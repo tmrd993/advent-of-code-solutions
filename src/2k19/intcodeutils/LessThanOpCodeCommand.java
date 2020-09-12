@@ -1,21 +1,21 @@
 package intcodeutils;
 
-import java.util.List;
-
 import myutils19.IntCodeComputer;
 
 public class LessThanOpCodeCommand implements OpCodeCommand {
-    private List<Integer> program;
+    private IntCodeMemory memory;
     private int lessThanSkipCount = 4;
-    private final int index;
+    private final long index;
     private final ParameterMode c;
     private final ParameterMode b;
     private final ParameterMode a;
+    private final IntCodeComputer computer;
     private final ParameterModeParser parser;
     private final int id = 7;
 
     public LessThanOpCodeCommand(IntCodeComputer computer, ParameterMode a, ParameterMode b, ParameterMode c) {
-	program = computer.program();
+	memory = computer.memory();
+	this.computer = computer;
 	index = computer.instructionPointer();
 	this.a = a;
 	this.b = b;
@@ -25,23 +25,29 @@ public class LessThanOpCodeCommand implements OpCodeCommand {
 
     @Override
     public void execute() {
-	int pos1 = parser.getTargetIndex(c, index + 1, program.get(index + 1));
-	int pos2 = parser.getTargetIndex(b, index + 2, program.get(index + 2));
-	int targetPos = parser.getTargetIndex(a, index + 3, program.get(index + 3));
+	// c
+	long pos1 = parser.getTargetIndex(c, index + 1, memory.get(index + 1),
+		memory.get(index + 1) + computer.relativeBase());
+	// b
+	long pos2 = parser.getTargetIndex(b, index + 2, memory.get(index + 2),
+		memory.get(index + 2) + computer.relativeBase());
+	// a
+	long targetPos = parser.getTargetIndex(a, index + 3, memory.get(index + 3),
+		memory.get(index + 3) + computer.relativeBase());
 
-	int val1 = program.get(pos1);
-	int val2 = program.get(pos2);
+	long val1 = memory.get(pos1);
+	long val2 = memory.get(pos2);
 
 	if (val1 < val2) {
-	    program.set(targetPos, 1);
+	    memory.set(targetPos, 1);
 	} else {
-	    program.set(targetPos, 0);
+	    memory.set(targetPos, 0);
 	}
 
     }
 
     @Override
-    public int moveInstructionPointer() {
+    public long moveInstructionPointer() {
 	return index + lessThanSkipCount;
     }
 

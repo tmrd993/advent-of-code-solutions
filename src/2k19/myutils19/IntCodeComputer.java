@@ -6,31 +6,35 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Queue;
+import java.util.stream.Collectors;
 
+import intcodeutils.IntCodeMemory;
 import intcodeutils.OpCodeCommand;
 import intcodeutils.OpCodeCommandFactory;
 
 public class IntCodeComputer {
-    private List<Integer> program;
+    private IntCodeMemory memory;
     private boolean halt;
     private boolean standby;
-    private int instructionPointer;
-    private Queue<Integer> inputValues;
-    private Optional<Integer> outputValue = Optional.empty();
-    private List<Integer> outputValues;
+    private long instructionPointer;
+    private Queue<Long> inputValues;
+    private Optional<Long> outputValue = Optional.empty();
+    private List<Long> outputValues;
+    private long relativeBase;
     
     public IntCodeComputer(List<Integer> program) {
-	this.program = program;
+	memory = new IntCodeMemory(program.stream().map(n -> (long) n).collect(Collectors.toList()));
 	halt = false;
 	instructionPointer = 0;
+	relativeBase = 0;
 	inputValues = new LinkedList<>();
 	outputValues = new ArrayList<>();
     }
     
     public IntCodeComputer(List<Integer> program, int noun, int verb) {
-	this.program = program;
 	halt = false;
 	instructionPointer = 0;
+	memory = new IntCodeMemory(program.stream().map(n -> (long) n).collect(Collectors.toList()));
 	this.replace(1, noun);
 	this.replace(2, verb);
     }
@@ -53,40 +57,48 @@ public class IntCodeComputer {
 	return standby;
     }
     
-    public List<Integer> program() {
-	return program;
+    public IntCodeMemory memory() {
+	return memory;
     }
     
     public void replace(int index, int value) {
-	program.set(index, value);
+	memory.set(index, value);
     }
     
-    public int instructionPointer() {
+    public long instructionPointer() {
 	return instructionPointer;
     }
     
-    public void setInputValues(int... input) {
+    public void setInputValues(long... input) {
 	Arrays.stream(input).forEach(n -> inputValues.add(n));
     }
     
-    public Queue<Integer> inputValues() {
+    public Queue<Long> inputValues() {
 	return inputValues;
     }
     
-    public void saveOutputValue(int val) {
+    public void saveOutputValue(long val) {
 	outputValue = Optional.of(val);
 	outputValues.add(val);
     }
     
-    public Optional<Integer> mostRecentOutputValue() {
+    public Optional<Long> mostRecentOutputValue() {
 	return outputValue;
+    }
+    
+    public long relativeBase() {
+	return relativeBase;
+    }
+    
+    public void setRelativeBase(long base) {
+	relativeBase = base;
     }
     
     public void run() {
 	standby = false;
 	while(!halt && !standby) {
-	    int instruction = program.get(instructionPointer);
-	    OpCodeCommand command = OpCodeCommandFactory.getCommand(instruction, this, instructionPointer);
+	    long instruction = memory.get(instructionPointer);
+	    OpCodeCommand command = OpCodeCommandFactory.getCommand(instruction, this);
 	    command.execute();
 	    instructionPointer = command.moveInstructionPointer();
 	}

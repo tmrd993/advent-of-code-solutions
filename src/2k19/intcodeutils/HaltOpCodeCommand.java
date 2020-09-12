@@ -18,7 +18,7 @@ public class HaltOpCodeCommand implements OpCodeCommand {
     }
 
     @Override
-    public int moveInstructionPointer() {
+    public long moveInstructionPointer() {
 	return computer.instructionPointer() + haltSkipCount;
     }
     
