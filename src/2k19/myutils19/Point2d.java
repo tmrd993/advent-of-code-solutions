@@ -40,6 +40,14 @@ public class Point2d {
     public String toString() {
 	return "[" + x + ", " + y + "]";
     }
+    
+    public int distanceL1(Point2d that) {
+	return Math.abs(this.x - that.x) + Math.abs(this.y - that.y);
+    }
+    
+    public int distanceFromOrigin() {
+	return Math.abs(x) + Math.abs(y);
+    }
 
     
 }

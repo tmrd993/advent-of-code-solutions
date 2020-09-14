@@ -80,7 +80,7 @@ Link: https://adventofcode.com/2019/
 |[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day7.java) | Amplification Circuit | [Blog Post](https://adventofcode.com/2019/day/7)|
 |[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day8.java) | Space Image Format | [Blog Post](https://adventofcode.com/2019/day/8)|
 |[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day9.java) | Sensor Boost | [Blog Post](https://adventofcode.com/2019/day/9)|
-|[TBD] | Monitoring Station | [Blog Post](https://adventofcode.com/2019/day/10)|
+|[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day10.java) | Monitoring Station | [Blog Post](https://adventofcode.com/2019/day/10)|
 |[TBD] | Space Police | [Blog Post](https://adventofcode.com/2019/day/11)|
 |[TBD] | The N-Body Problem | [Blog Post](https://adventofcode.com/2019/day/12)|
 |[TBD] | Care Package | [Blog Post](https://adventofcode.com/2019/day/13)|

@@ -45,14 +45,14 @@ public class StaticUtils {
 	}
 	return nums;
     }
-    
+
     public static List<Integer> digitFileToList(File input) {
 	List<Integer> digits = new ArrayList<>();
 	try {
 	    BufferedReader br = new BufferedReader(new FileReader(input));
 	    String line = "";
-	    while((line = br.readLine()) != null) {
-		line.chars().map(c -> (char) c).forEach(c-> digits.add(Character.getNumericValue(c)));
+	    while ((line = br.readLine()) != null) {
+		line.chars().map(c -> (char) c).forEach(c -> digits.add(Character.getNumericValue(c)));
 	    }
 	    br.close();
 	} catch (IOException e) {
@@ -72,18 +72,18 @@ public class StaticUtils {
 	return str;
     }
 
-    public static List<List<Integer>> permutations(int[] a){
+    public static List<List<Integer>> permutations(int[] a) {
 	List<List<Integer>> perms = new ArrayList<>();
 	permutations(a, a.length, a.length, perms);
 	return perms;
     }
-    
+
     // heaps algorithm to compute all permutations of an array
     private static void permutations(int a[], int size, int n, List<List<Integer>> perms) {
 	if (size == 1) {
 	    perms.add(intArrayToIntegerList(Arrays.copyOfRange(a, 0, n)));
 	}
-	    
+
 	for (int i = 0; i < size; i++) {
 	    permutations(a, size - 1, n, perms);
 	    if (size % 2 == 1) {
@@ -99,12 +99,43 @@ public class StaticUtils {
 	    }
 	}
     }
-    
+
     private static List<Integer> intArrayToIntegerList(int[] arr) {
 	List<Integer> list = new ArrayList<>(arr.length);
-	for(int n : arr) {
+	for (int n : arr) {
 	    list.add(n);
 	}
 	return list;
+    }
+    
+    public static double calcRotationAngleInDegrees(Point2d centerPt, Point2d targetPt)
+    {
+        // calculate the angle theta from the deltaY and deltaX values
+        // (atan2 returns radians values from [-PI,PI])
+        // 0 currently points EAST.  
+        // NOTE: By preserving Y and X param order to atan2,  we are expecting 
+        // a CLOCKWISE angle direction.  
+        double theta = Math.atan2(targetPt.y() - centerPt.y(), targetPt.x() - centerPt.x());
+
+        // rotate the theta angle clockwise by 90 degrees 
+        // (this makes 0 point NORTH)
+        // NOTE: adding to an angle rotates it clockwise.  
+        // subtracting would rotate it counter-clockwise
+        theta += Math.PI/2.0;
+
+        // convert from radians to degrees
+        // this will give you an angle from [0->270],[-180,0]
+        double angle = Math.toDegrees(theta);
+
+        // convert to positive range [0-360)
+        // since we want to prevent negative angles, adjust them now.
+        // we can assume that atan2 will not return a negative value
+        // greater than one partial rotation
+        if (angle < 0) {
+            angle += 360;
+        }
+        //System.out.println(angle + " " + targetPt);
+        return angle;
+        //return Math.floorMod((int)angle - 90, 360);
     }
 }

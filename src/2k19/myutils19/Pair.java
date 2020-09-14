@@ -1,6 +1,6 @@
 package myutils19;
 
-public class Pair <K, V> {
+public class Pair <K, V extends Comparable<V>> implements Comparable<Pair<K, V>>{
     private K k;
     private V v;
     
@@ -35,4 +35,15 @@ public class Pair <K, V> {
     public int hashCode() {
 	return k.hashCode();
     }
+    
+    @Override
+    public String toString() {
+	return "Key: " + k.toString() + ", Value: " + v.toString();
+    }
+
+    @Override
+    public int compareTo(Pair<K, V> o) {
+	return o.v.compareTo(this.v);
+    }
+
 }
