@@ -9,10 +9,10 @@ import myutils19.StaticUtils;
 
 public class Day9 {
     
-    private List<Integer> initialProgram;
+    private List<Long> initialProgram;
     
     public Day9(File input) {
-	initialProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
+	initialProgram = StaticUtils.commaSeperatedLongFileToList(input);
     }
     
     public long run() {

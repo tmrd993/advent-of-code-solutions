@@ -10,10 +10,10 @@ import myutils19.StaticUtils;
 public class Day7 {
 
     private final int numOfComputers = 5;
-    List<Integer> initialProgram;
+    List<Long> initialProgram;
 
     public Day7(File input) {
-	initialProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
+	initialProgram = StaticUtils.commaSeperatedLongFileToList(input);
     }
 
     public long run1() {
@@ -81,7 +81,7 @@ public class Day7 {
 
     public static void main(String[] args) {
 	Day7 test = new Day7(new File("C:\\Users\\Timucin\\Desktop\\Advent of code 2019\\Day 7\\InputFile.txt"));
-	System.out.println(test.run1());
+	System.out.println(test.run2());
     }
 
 }

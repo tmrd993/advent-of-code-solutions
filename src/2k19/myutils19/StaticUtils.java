@@ -46,6 +46,21 @@ public class StaticUtils {
 	return nums;
     }
 
+    public static List<Long> commaSeperatedLongFileToList(File file) {
+	List<Long> nums = new ArrayList<>();
+	try {
+	    Scanner sc = new Scanner(file);
+	    sc.useDelimiter(",");
+	    while (sc.hasNext()) {
+		nums.add(Long.parseLong(sc.next()));
+	    }
+	    sc.close();
+	} catch (FileNotFoundException e) {
+	    e.printStackTrace();
+	}
+	return nums;
+    }
+
     public static List<Integer> digitFileToList(File input) {
 	List<Integer> digits = new ArrayList<>();
 	try {
@@ -107,35 +122,48 @@ public class StaticUtils {
 	}
 	return list;
     }
-    
-    public static double calcRotationAngleInDegrees(Point2d centerPt, Point2d targetPt)
-    {
-        // calculate the angle theta from the deltaY and deltaX values
-        // (atan2 returns radians values from [-PI,PI])
-        // 0 currently points EAST.  
-        // NOTE: By preserving Y and X param order to atan2,  we are expecting 
-        // a CLOCKWISE angle direction.  
-        double theta = Math.atan2(targetPt.y() - centerPt.y(), targetPt.x() - centerPt.x());
 
-        // rotate the theta angle clockwise by 90 degrees 
-        // (this makes 0 point NORTH)
-        // NOTE: adding to an angle rotates it clockwise.  
-        // subtracting would rotate it counter-clockwise
-        theta += Math.PI/2.0;
+    public static double calcRotationAngleInDegrees(Point2d centerPt, Point2d targetPt) {
+	// calculate the angle theta from the deltaY and deltaX values
+	// (atan2 returns radians values from [-PI,PI])
+	// 0 currently points EAST.
+	// NOTE: By preserving Y and X param order to atan2, we are expecting
+	// a CLOCKWISE angle direction.
+	double theta = Math.atan2(targetPt.y() - centerPt.y(), targetPt.x() - centerPt.x());
 
-        // convert from radians to degrees
-        // this will give you an angle from [0->270],[-180,0]
-        double angle = Math.toDegrees(theta);
+	// rotate the theta angle clockwise by 90 degrees
+	// (this makes 0 point NORTH)
+	// NOTE: adding to an angle rotates it clockwise.
+	// subtracting would rotate it counter-clockwise
+	theta += Math.PI / 2.0;
 
-        // convert to positive range [0-360)
-        // since we want to prevent negative angles, adjust them now.
-        // we can assume that atan2 will not return a negative value
-        // greater than one partial rotation
-        if (angle < 0) {
-            angle += 360;
-        }
-        //System.out.println(angle + " " + targetPt);
-        return angle;
-        //return Math.floorMod((int)angle - 90, 360);
+	// convert from radians to degrees
+	// this will give you an angle from [0->270],[-180,0]
+	double angle = Math.toDegrees(theta);
+
+	// convert to positive range [0-360)
+	// since we want to prevent negative angles, adjust them now.
+	// we can assume that atan2 will not return a negative value
+	// greater than one partial rotation
+	if (angle < 0) {
+	    angle += 360;
+	}
+	return angle;
     }
+
+    public static long leastCommonMultiple(long number1, long number2) {
+	if (number1 == 0 || number2 == 0) {
+	    return 0;
+	}
+	long absNumber1 = Math.abs(number1);
+	long absNumber2 = Math.abs(number2);
+	long absHigherNumber = Math.max(absNumber1, absNumber2);
+	long absLowerNumber = Math.min(absNumber1, absNumber2);
+	long lcm = absHigherNumber;
+	while (lcm % absLowerNumber != 0) {
+	    lcm += absHigherNumber;
+	}
+	return lcm;
+    }
+
 }

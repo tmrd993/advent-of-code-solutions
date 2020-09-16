@@ -8,15 +8,15 @@ import myutils19.IntCodeComputer;
 import myutils19.StaticUtils;
 
 public class Day2 {
-    private List<Integer> opCodeProgram;
+    private List<Long> opCodeProgram;
     private final int targetPart2 = 19690720;
 
     public Day2(File input) {
-	opCodeProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
+	opCodeProgram = StaticUtils.commaSeperatedLongFileToList(input);
     }
 
     public long run1() {
-	List<Integer> program = new ArrayList<>(opCodeProgram);
+	List<Long> program = new ArrayList<>(opCodeProgram);
 	IntCodeComputer computer = new IntCodeComputer(program);
 	computer.replace(1, 12);
 	computer.replace(2, 2);
@@ -27,7 +27,7 @@ public class Day2 {
     public int run2() {
 	for(int i = 0; i <= 99; i++) {
 	    for(int j = 0; j <= 99; j++) {
-		List<Integer> program = new ArrayList<>(opCodeProgram);
+		List<Long> program = new ArrayList<>(opCodeProgram);
 		IntCodeComputer computer = new IntCodeComputer(program, i, j);
 		computer.run();
 		if(computer.memory().get(0) == targetPart2) {

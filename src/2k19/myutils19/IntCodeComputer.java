@@ -1,12 +1,10 @@
 package myutils19;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Queue;
-import java.util.stream.Collectors;
 
 import intcodeutils.IntCodeMemory;
 import intcodeutils.OpCodeCommand;
@@ -19,22 +17,22 @@ public class IntCodeComputer {
     private long instructionPointer;
     private Queue<Long> inputValues;
     private Optional<Long> outputValue = Optional.empty();
-    private List<Long> outputValues;
+    private Queue<Long> outputValues;
     private long relativeBase;
     
-    public IntCodeComputer(List<Integer> program) {
-	memory = new IntCodeMemory(program.stream().map(n -> (long) n).collect(Collectors.toList()));
+    public IntCodeComputer(List<Long> program) {
+	memory = new IntCodeMemory(program);
 	halt = false;
 	instructionPointer = 0;
 	relativeBase = 0;
 	inputValues = new LinkedList<>();
-	outputValues = new ArrayList<>();
+	outputValues = new LinkedList<>();
     }
     
-    public IntCodeComputer(List<Integer> program, int noun, int verb) {
+    public IntCodeComputer(List<Long> program, int noun, int verb) {
 	halt = false;
 	instructionPointer = 0;
-	memory = new IntCodeMemory(program.stream().map(n -> (long) n).collect(Collectors.toList()));
+	memory = new IntCodeMemory(program);
 	this.replace(1, noun);
 	this.replace(2, verb);
     }
@@ -84,6 +82,10 @@ public class IntCodeComputer {
     
     public Optional<Long> mostRecentOutputValue() {
 	return outputValue;
+    }
+    
+    public Queue<Long> outputValues() {
+	return outputValues;
     }
     
     public long relativeBase() {

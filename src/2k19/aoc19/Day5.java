@@ -9,18 +9,18 @@ import myutils19.StaticUtils;
 
 public class Day5 {
 
-    private List<Integer> opCodeProgram;
+    private List<Long> opCodeProgram;
 
     public Day5(File input) {
-	opCodeProgram = StaticUtils.commaSeperatedIntegerFileToList(input);
+	opCodeProgram = StaticUtils.commaSeperatedLongFileToList(input);
     }
 
     
     public long run() {
-	List<Integer> defensiveCopyProgram = new ArrayList<>(opCodeProgram);
+	List<Long> defensiveCopyProgram = new ArrayList<>(opCodeProgram);
 	IntCodeComputer computer = new IntCodeComputer(defensiveCopyProgram);
 	// provide val 1 for solution part 1, val 5 for solution part 2
-	computer.setInputValues(5);
+	computer.setInputValues(1);
 	computer.run();
 	return computer.mostRecentOutputValue().get();
     }
