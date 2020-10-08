@@ -87,7 +87,7 @@ Link: https://adventofcode.com/2019/
 |[Day 14](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day14.java) | Space Stoichiometry | [Blog Post](https://adventofcode.com/2019/day/14)|
 |[Day 15](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day15.java) | Oxygen System | [Blog Post](https://adventofcode.com/2019/day/15)|
 |[Day 16](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day16.java) | Flawed Frequency Transmission | [Blog Post](https://adventofcode.com/2019/day/16)|
-|[Day 17](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day16.java) | Set and Forget | [Blog Post](https://adventofcode.com/2019/day/17)|
+|[Day 17](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day17.java) | Set and Forget | [Blog Post](https://adventofcode.com/2019/day/17)|
 |[TBD] | Many-Worlds Interpretation | [Blog Post](https://adventofcode.com/2019/day/18)|
 |[TBD] | Tractor Beam | [Blog Post](https://adventofcode.com/2019/day/19)|
 |[TBD] | Donut Maze | [Blog Post](https://adventofcode.com/2019/day/20)|
