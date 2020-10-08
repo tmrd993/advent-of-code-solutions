@@ -19,6 +19,10 @@ public class Point2d {
 	return y;
     }
     
+    public Point2d add(Point2d that) {
+	return new Point2d(this.x + that.x, this.y + that.y);
+    }
+    
     @Override
     public boolean equals(Object o) {
 	if(this == o) {
