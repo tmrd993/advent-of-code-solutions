@@ -12,7 +12,7 @@ Link: https://adventofcode.com/2017/
 |[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day3.java) | Spiral Memory | [Blog Post](https://adventofcode.com/2017/day/3)|
 |[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day4.java) | High-Entropy Passphrases | [Blog Post](https://adventofcode.com/2017/day/4)|
 |[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day5.java) | A Maze of Twisty Trampolines, All Alike | [Blog Post](https://adventofcode.com/2017/day/5)|
-|[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k18/aoc17/Day6.java) | Memory Reallocation | [Blog Post](https://adventofcode.com/2017/day/6)|
+|[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day6.java) | Memory Reallocation | [Blog Post](https://adventofcode.com/2017/day/6)|
 |[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day7.java) | Recursive Circus | [Blog Post](https://adventofcode.com/2017/day/7)|
 |[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day8.java) | I Heard You Like Registers | [Blog Post](https://adventofcode.com/2017/day/8)|
 |[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day9.java) | Stream Processing | [Blog Post](https://adventofcode.com/2017/day/9)|
