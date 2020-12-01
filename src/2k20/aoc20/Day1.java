@@ -10,14 +10,13 @@ import myutils20.StaticUtils;
 public class Day1 {
     
     private List<Integer> numbers;
+    private final int targetSum = 2020;
     
     public Day1(File inputFile) {
 	numbers = StaticUtils.inputFileToIntList(inputFile);
     }
     
     public int run1() {
-	int targetSum = 2020;
-	
 	Set<Integer> nums = new HashSet<>();
 	for(int i = 0; i < numbers.size(); i++) {
 	    nums.add(numbers.get(i));
@@ -34,8 +33,6 @@ public class Day1 {
     }
     
     public long run2() {
-	int targetSum = 2020;
-	
 	Set<Integer> nums = new HashSet<>();
 	for(int i = 0; i < numbers.size(); i++) {
 	    nums.add(numbers.get(i));
