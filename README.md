@@ -96,3 +96,7 @@ Link: https://adventofcode.com/2019/
 |[TBD] | Category Six | [Blog Post](https://adventofcode.com/2019/day/23)|
 |[TBD] | Planet of Discord | [Blog Post](https://adventofcode.com/2019/day/24)|
 |[TBD] | Cryostasis | [Blog Post](https://adventofcode.com/2019/day/25)|
+
+# Advent-of-Code-2020
+Solutions to the Advent of Code 2020 challenge in Java    
+Link: https://adventofcode.com/2020/  
