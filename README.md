@@ -100,3 +100,7 @@ Link: https://adventofcode.com/2019/
 # Advent-of-Code-2020
 Solutions to the Advent of Code 2020 challenge in Java    
 Link: https://adventofcode.com/2020/  
+## Days:  
+| Link to source code | Name | Link to BP |
+|---|---|---|
+|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day1.java) | Report Repair |[Blog Post](https://adventofcode.com/2020/day/1) |
