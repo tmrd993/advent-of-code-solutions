@@ -104,3 +104,4 @@ Link: https://adventofcode.com/2020/
 | Link to source code | Name | Link to BP |
 |---|---|---|
 |[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day1.java) | Report Repair |[Blog Post](https://adventofcode.com/2020/day/1) |
+|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day2.java) | Password Philosophy |[Blog Post](https://adventofcode.com/2020/day/2) |
