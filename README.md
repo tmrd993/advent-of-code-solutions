@@ -107,3 +107,4 @@ Link: https://adventofcode.com/2020/
 |[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day2.java) | Password Philosophy |[Blog Post](https://adventofcode.com/2020/day/2) |
 |[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day3.java) | Toboggan Trajectory |[Blog Post](https://adventofcode.com/2020/day/3) |
 |[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day4.java) | Passport Processing |[Blog Post](https://adventofcode.com/2020/day/4) |
+|[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day5.java) | Binary Boarding |[Blog Post](https://adventofcode.com/2020/day/5) |
