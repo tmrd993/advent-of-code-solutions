@@ -109,3 +109,4 @@ Link: https://adventofcode.com/2020/
 |[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day4.java) | Passport Processing |[Blog Post](https://adventofcode.com/2020/day/4) |
 |[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day5.java) | Binary Boarding |[Blog Post](https://adventofcode.com/2020/day/5) |
 |[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day6.java) | Custom Customs |[Blog Post](https://adventofcode.com/2020/day/6) |
+|[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day7.java) | Handy Haversacks |[Blog Post](https://adventofcode.com/2020/day/7) |
