@@ -110,3 +110,4 @@ Link: https://adventofcode.com/2020/
 |[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day5.java) | Binary Boarding |[Blog Post](https://adventofcode.com/2020/day/5) |
 |[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day6.java) | Custom Customs |[Blog Post](https://adventofcode.com/2020/day/6) |
 |[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day7.java) | Handy Haversacks |[Blog Post](https://adventofcode.com/2020/day/7) |
+|[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day8.java) | Handheld Halting |[Blog Post](https://adventofcode.com/2020/day/8) |
