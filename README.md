@@ -112,3 +112,4 @@ Link: https://adventofcode.com/2020/
 |[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day7.java) | Handy Haversacks |[Blog Post](https://adventofcode.com/2020/day/7) |
 |[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day8.java) | Handheld Halting |[Blog Post](https://adventofcode.com/2020/day/8) |
 |[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day9.java) | Encoding Error |[Blog Post](https://adventofcode.com/2020/day/9) |
+|[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day10.java) | Adapter Array |[Blog Post](https://adventofcode.com/2020/day/10) |
