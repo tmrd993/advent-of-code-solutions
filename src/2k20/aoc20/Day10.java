@@ -2,7 +2,6 @@ package aoc20;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.LongStream;
@@ -77,7 +76,7 @@ public class Day10 {
 
     public static void main(String[] args) {
 	Day10 test = new Day10(new File("C:\\Users\\Timucin\\Desktop\\Advent of code 2020\\Day 10\\InputFile1.txt"));
-	System.out.println(test.run2());
+	System.out.println(test.run1());
 	
     }
 
