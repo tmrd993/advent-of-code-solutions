@@ -115,3 +115,4 @@ Link: https://adventofcode.com/2020/
 |[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day10.java) | Adapter Array |[Blog Post](https://adventofcode.com/2020/day/10) |
 |[Day 11](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day11.java) | Seating System |[Blog Post](https://adventofcode.com/2020/day/11) |
 |[Day 12](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day12.java) | Rain Risk |[Blog Post](https://adventofcode.com/2020/day/12) |
+|[Day 13](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day13.java) | Shuttle Search |[Blog Post](https://adventofcode.com/2020/day/13) |

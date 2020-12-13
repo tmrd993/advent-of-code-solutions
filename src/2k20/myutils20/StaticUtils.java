@@ -49,4 +49,32 @@ public class StaticUtils {
 	}
 	return res;
     }
+    
+    public static long lcm(long a, long b) {
+	
+	return (a / gcd(a, b)) * b;
+    }
+    
+    
+    // 1    4     6
+    
+    public static long lcm(List<Long> n) {
+	if(n.size() < 2) {
+	    return -1;
+	}
+	
+	long res = lcm(n.get(0), n.get(1));
+	for(int i = 0; i < n.size(); i++) {
+	    res = lcm(res, n.get(i));
+	}
+	return res;
+    }
+    
+    public static long gcd(long a, long b) {
+	if(b == 0) {
+	    return a;
+	}
+	return gcd(b, a % b);
+    }
+ 
 }

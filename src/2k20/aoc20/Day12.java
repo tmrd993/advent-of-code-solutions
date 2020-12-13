@@ -72,7 +72,7 @@ public class Day12 {
 
     public static void main(String[] args) {
 	Day12 test = new Day12(new File("C:\\Users\\Timucin\\Desktop\\Advent of code 2020\\Day 12\\InputFile1.txt"));
-	System.out.println(test.run2());
+	System.out.println(test.run1());
 
     }
 
