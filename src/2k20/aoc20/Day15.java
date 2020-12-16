@@ -41,7 +41,6 @@ public class Day15 {
 	return lastSpokenNum;
     }
     
-    // takes a few seconds to run, not the fastest solution but it's ok
     public int run2() {
 	return run1(30000000);
     }
