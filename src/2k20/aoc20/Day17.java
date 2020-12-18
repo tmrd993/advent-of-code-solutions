@@ -150,7 +150,6 @@ public class Day17 {
 
     private Set<Point3d> neighbors(Point3d p) {
 	Set<Point3d> neighbors = new HashSet<>();
-
 	for (int i = p.x() - 1; i <= p.x() + 1; i++) {
 	    for (int j = p.y() - 1; j <= p.y() + 1; j++) {
 		for (int k = p.z() - 1; k <= p.z() + 1; k++) {

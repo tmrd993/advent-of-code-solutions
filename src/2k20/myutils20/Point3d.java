@@ -2,7 +2,7 @@ package myutils20;
 
 import java.util.Objects;
 
-public class Point3d {
+public class Point3d implements Point {
     
     private final int x;
     private final int y;
