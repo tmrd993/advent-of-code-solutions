@@ -8,7 +8,7 @@ import myutils20.StaticUtils;
 
 public class Day18 {
 
-    List<String> rawData;
+    private List<String> rawData;
 
     public Day18(File inputFile) {
 	rawData = StaticUtils.inputFileToStringList(inputFile);
