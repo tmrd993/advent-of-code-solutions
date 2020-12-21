@@ -123,3 +123,4 @@ Link: https://adventofcode.com/2020/
 |[Day 18](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day18.java) | Operation Order |[Blog Post](https://adventofcode.com/2020/day/18) |
 |[Day 19](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day19.java) | Monster Messages |[Blog Post](https://adventofcode.com/2020/day/19) |
 |[Day 20](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day20.java) | Jurassic Jigsaw |[Blog Post](https://adventofcode.com/2020/day/20) |
+|[Day 21](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day21.java) | Allergen Assessment |[Blog Post](https://adventofcode.com/2020/day/21) |
