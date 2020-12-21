@@ -75,7 +75,7 @@ public class Day21 {
 			for (Set<String> targetIngredient : targetIngredients) {
 			    // if the allergen was not in a set, it's impossible to match with the current
 			    // ingredient
-			    // put if in a set to remove it later with the rest
+			    // put it in a set to remove it later with the rest
 			    if (!targetIngredient.contains(ingr)) {
 				isInEverySet = false;
 				nonMatchingAllergens.add(possibleAllergen);
