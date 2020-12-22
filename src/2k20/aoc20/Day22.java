@@ -39,12 +39,12 @@ public class Day22 {
 
     private int run2() {
 	initDecks();
-	recursiveBattle(0, 0, pDeck1, pDeck2, 0);
+	recursiveBattle(0, 0, pDeck1, pDeck2);
 	return winningScore(pDeck1.isEmpty() ? pDeck2 : pDeck1);
     }
 
     // return the number of the winning player
-    private int recursiveBattle(int nP1, int nP2, Queue<Integer> pDeck1, Queue<Integer> pDeck2, int gameNum) {
+    private int recursiveBattle(int nP1, int nP2, Queue<Integer> pDeck1, Queue<Integer> pDeck2) {
 	Set<Queue<Integer>> visitedStatesP1 = new HashSet<>();
 	Set<Queue<Integer>> visitedStatesP2 = new HashSet<>();
 
@@ -84,7 +84,7 @@ public class Day22 {
 		pDeck1.stream().limit(p1).forEach(n -> nextDeck1.add(n));
 		pDeck2.stream().limit(p2).forEach(n -> nextDeck2.add(n));
 		
-		int winningNumber = recursiveBattle(p1, p2, nextDeck1, nextDeck2, gameNum +1);
+		int winningNumber = recursiveBattle(p1, p2, nextDeck1, nextDeck2);
 
 		// player 1 wins
 		if (p1 == winningNumber) {
