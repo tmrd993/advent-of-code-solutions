@@ -126,3 +126,4 @@ Link: https://adventofcode.com/2020/
 |[Day 21](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day21.java) | Allergen Assessment |[Blog Post](https://adventofcode.com/2020/day/21) |
 |[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day22.java) | Crab Combat |[Blog Post](https://adventofcode.com/2020/day/22) |
 |[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day23.java) | Crab Cups |[Blog Post](https://adventofcode.com/2020/day/23) |
+|[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day24.java) | Lobby Layout |[Blog Post](https://adventofcode.com/2020/day/24) |
