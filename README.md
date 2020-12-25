@@ -31,6 +31,7 @@ Link: https://adventofcode.com/2020/
 |[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day22.java) | Crab Combat |[Blog Post](https://adventofcode.com/2020/day/22) |
 |[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day23.java) | Crab Cups |[Blog Post](https://adventofcode.com/2020/day/23) |
 |[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day24.java) | Lobby Layout |[Blog Post](https://adventofcode.com/2020/day/24) |
+|[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k20/aoc20/Day25.java) | Combo Breaker |[Blog Post](https://adventofcode.com/2020/day/25) |
 
 # Advent-of-Code-2019
 Solutions to the Advent of Code 2019 challenge in Java    
