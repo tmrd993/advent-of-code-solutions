@@ -9,10 +9,10 @@ public class Day25 {
     
     public long run1() {
 	
-	int loopSizeCard = findLoopSize(doorKey);
+	int loopSizeDoor = findLoopSize(doorKey);
 	
 	long val = 1;
-	for(int i = 0; i < loopSizeCard; i++) {
+	for(int i = 0; i < loopSizeDoor; i++) {
 	    val *= cardKey;
 	    val %= divNum;
 	}
