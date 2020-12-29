@@ -16,5 +16,10 @@ public class IncomparablePair<K, V> {
     public V v() {
 	return v;
     }
+    
+    @Override
+    public String toString() {
+	return "Key: " + k.toString() + ", Value: " + v.toString();
+    }
 
 }

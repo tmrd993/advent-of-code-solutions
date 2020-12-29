@@ -30,6 +30,14 @@ public class DoublyLinkedList {
 	tail = null;
 	size = 0;
     }
+    
+    public int get(int index) {
+	Node curr = head;
+	for(int i = 0; i < index; i++) {
+	    curr = curr.next;
+	}
+	return curr.data;
+    }
 
     // adds a new node at the current position by moving the (old) current node
     // to the right
