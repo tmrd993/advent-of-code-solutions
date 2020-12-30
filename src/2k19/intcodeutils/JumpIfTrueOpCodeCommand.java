@@ -25,7 +25,9 @@ public class JumpIfTrueOpCodeCommand implements OpCodeCommand {
     public void execute() {
 	long posVal1 = parser.getTargetIndex(c, index + 1, memory.get(index + 1), memory.get(index + 1) + computer.relativeBase());
 	long posVal2 = parser.getTargetIndex(b, index + 2, memory.get(index + 2), memory.get(index + 2) + computer.relativeBase());
+	
 	long val1 = memory.get(posVal1);
+
 	if(val1 != 0) {
 	    jumpIfTrueSkipCount = memory.get(posVal2) - index;
 	}

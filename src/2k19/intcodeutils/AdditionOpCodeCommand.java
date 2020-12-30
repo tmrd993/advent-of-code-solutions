@@ -15,7 +15,7 @@ public class AdditionOpCodeCommand implements OpCodeCommand {
 
     public AdditionOpCodeCommand(IntCodeComputer computer, ParameterMode a, ParameterMode b, ParameterMode c) {
 	memory = computer.memory();
-	//program = computer.program();
+	// program = computer.program();
 	this.computer = computer;
 	index = computer.instructionPointer();
 	this.a = a;
@@ -38,6 +38,7 @@ public class AdditionOpCodeCommand implements OpCodeCommand {
 
 	long valAtPos1 = memory.get(pos1);
 	long valAtPos2 = memory.get(pos2);
+
 	memory.set(targetPos, valAtPos1 + valAtPos2);
     }
 

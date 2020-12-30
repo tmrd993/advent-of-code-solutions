@@ -13,7 +13,6 @@ public class AdjustRelativeBaseOpCodeCommand implements OpCodeCommand {
     
     public AdjustRelativeBaseOpCodeCommand(IntCodeComputer computer, ParameterMode c) {
 	this.computer = computer;
-	//program = computer.program();
 	index = computer.instructionPointer();
 	this.c = c;
 	parser = ParameterModeParser.getInstance();

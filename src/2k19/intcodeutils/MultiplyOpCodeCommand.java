@@ -37,6 +37,7 @@ public class MultiplyOpCodeCommand implements OpCodeCommand {
 
 	long valAtPos1 = memory.get(pos1);
 	long valAtPos2 = memory.get(pos2);
+	
 	memory.set(targetPos, valAtPos1 * valAtPos2);
     }
 

@@ -30,7 +30,6 @@ public class SaveInputOpCodeCommand implements OpCodeCommand {
 	if(inputValues.isEmpty()) {
 	    index -= saveInputSkipCount;
 	    computer.setStandby();
-	    //System.out.println(computer + "   paused");
 	}
 	else {
 	    long inputValue = inputValues.poll();

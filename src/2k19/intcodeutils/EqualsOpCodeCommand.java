@@ -37,6 +37,7 @@ public class EqualsOpCodeCommand implements OpCodeCommand {
 
 	long val1 = memory.get(pos1);
 	long val2 = memory.get(pos2);
+	
 
 	if (val1 == val2) {
 	    memory.set(targetPos, 1);

@@ -24,7 +24,6 @@ public class OutputOpCodeCommand implements OpCodeCommand {
 	long targetPos = parser.getTargetIndex(c, index + 1, memory.get(index + 1), memory.get(index + 1) + computer.relativeBase());
 	long outputVal = memory.get(targetPos);
 	computer.saveOutputValue(outputVal);
-	//System.out.println("Opcode 4 detected, output: " + outputVal);
     }
 
     @Override
