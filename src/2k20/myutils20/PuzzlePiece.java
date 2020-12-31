@@ -30,7 +30,7 @@ public class PuzzlePiece {
     public int id() {
 	return id;
     }
-    
+
     public int getConnections() {
 	return connections;
     }
@@ -56,12 +56,12 @@ public class PuzzlePiece {
 	this.isFlippable = flag;
     }
 
-    public boolean canConnect(PuzzlePiece piece) {
+    public boolean canConnect(PuzzlePiece piece, boolean isPart2) {
 
 	for (int i = 0; i < 4; i++) {
 
-	    if (this.canConnectBottom(piece) || this.canConnectLeft(piece) || this.canConnectRight(piece)
-		    || this.canConnectTop(piece)) {
+	    if (this.canConnectBottom(piece, isPart2) || this.canConnectLeft(piece, isPart2)
+		    || this.canConnectRight(piece, isPart2) || this.canConnectTop(piece, isPart2)) {
 		// piece.resetToInitialState();
 		return true;
 	    }
@@ -75,8 +75,8 @@ public class PuzzlePiece {
 
 	for (int i = 0; i < 4; i++) {
 
-	    if (this.canConnectBottom(piece) || this.canConnectLeft(piece) || this.canConnectRight(piece)
-		    || this.canConnectTop(piece)) {
+	    if (this.canConnectBottom(piece, isPart2) || this.canConnectLeft(piece, isPart2)
+		    || this.canConnectRight(piece, isPart2) || this.canConnectTop(piece, isPart2)) {
 		// piece.resetToInitialState();
 		return true;
 	    }
@@ -85,12 +85,12 @@ public class PuzzlePiece {
 		piece.rotate90CW();
 	    }
 	}
-	//piece.resetToInitialState();
+	// piece.resetToInitialState();
 	return false;
     }
 
     // check if the top of this piece can be connected to the bottom of topPiece
-    public boolean canConnectTop(PuzzlePiece topPiece) {
+    public boolean canConnectTop(PuzzlePiece topPiece, boolean isPart2) {
 
 	for (int i = 0; i < grid.length; i++) {
 	    if (grid[0][i] != topPiece.grid[grid.length - 1][i]) {
@@ -99,9 +99,10 @@ public class PuzzlePiece {
 	}
 
 	if (this.topConnection == 0 && topPiece.bottomConnection == 0) {
-	    topPiece.isFlippable = false;
-	    this.isFlippable = false;
-	    // System.out.println(topPiece.id + " now unflippable ");
+	    if (isPart2) {
+		topPiece.isFlippable = false;
+		this.isFlippable = false;
+	    }
 
 	    this.topConnection = topPiece.id;
 	    topPiece.bottomConnection = this.id;
@@ -113,7 +114,7 @@ public class PuzzlePiece {
 	return true;
     }
 
-    public boolean canConnectBottom(PuzzlePiece bottomPiece) {
+    public boolean canConnectBottom(PuzzlePiece bottomPiece, boolean isPart2) {
 
 	for (int i = 0; i < grid.length; i++) {
 	    if (grid[grid.length - 1][i] != bottomPiece.grid[0][i]) {
@@ -121,9 +122,11 @@ public class PuzzlePiece {
 	    }
 	}
 	if (this.bottomConnection == 0 && bottomPiece.topConnection == 0) {
-	    bottomPiece.isFlippable = false;
-	    this.isFlippable = false;
-	    // System.out.println(bottomPiece.id + " now unflippable ");
+	    if (isPart2) {
+		bottomPiece.isFlippable = false;
+		this.isFlippable = false;
+	    }
+
 	    this.bottomConnection = bottomPiece.id;
 	    bottomPiece.topConnection = this.id;
 	    this.bottomConnected = true;
@@ -135,7 +138,7 @@ public class PuzzlePiece {
 	return true;
     }
 
-    public boolean canConnectLeft(PuzzlePiece leftPiece) {
+    public boolean canConnectLeft(PuzzlePiece leftPiece, boolean isPart2) {
 
 	for (int i = 0; i < grid.length; i++) {
 	    if (grid[i][0] != leftPiece.grid[i][grid.length - 1]) {
@@ -144,9 +147,10 @@ public class PuzzlePiece {
 	}
 
 	if (this.leftConnection == 0 && leftPiece.rightConnection == 0) {
-	    leftPiece.isFlippable = false;
-	    this.isFlippable = false;
-	    // System.out.println(leftPiece.id + " now unflippable ");
+	    if (isPart2) {
+		leftPiece.isFlippable = false;
+		this.isFlippable = false;
+	    }
 	    this.leftConnection = leftPiece.id;
 	    leftPiece.rightConnection = this.id;
 	    this.leftConnected = true;
@@ -158,7 +162,7 @@ public class PuzzlePiece {
 	return true;
     }
 
-    public boolean canConnectRight(PuzzlePiece rightPiece) {
+    public boolean canConnectRight(PuzzlePiece rightPiece, boolean isPart2) {
 
 	for (int i = 0; i < grid.length; i++) {
 	    if (grid[i][grid.length - 1] != rightPiece.grid[i][0]) {
@@ -167,9 +171,11 @@ public class PuzzlePiece {
 	}
 
 	if (this.rightConnection == 0 && rightPiece.leftConnection == 0) {
-	    rightPiece.isFlippable = false;
-	    this.isFlippable = false;
-	    // System.out.println(rightPiece.id + " now unflippable ");
+	    if (isPart2) {
+		rightPiece.isFlippable = false;
+		this.isFlippable = false;
+	    }
+
 	    this.rightConnection = rightPiece.id;
 	    rightPiece.leftConnection = this.id;
 	    this.rightConnected = true;

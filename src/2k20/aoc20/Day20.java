@@ -29,7 +29,7 @@ public class Day20 {
 	    PuzzlePiece currentPiece = puzzlePieces.get(i);
 	    int count = 0;
 	    for (int j = 0; j < puzzlePieces.size(); j++) {
-		if (!currentPiece.equals(puzzlePieces.get(j)) && currentPiece.canConnect(puzzlePieces.get(j))) {
+		if (!currentPiece.equals(puzzlePieces.get(j)) && currentPiece.canConnect(puzzlePieces.get(j), false)) {
 		    count++;
 		}
 	    }
@@ -57,7 +57,7 @@ public class Day20 {
 
 	    for (PuzzlePiece piece : puzzlePieces) {
 		if (!processedPieces.contains(piece) && !currentPiece.equals(piece)) {
-		    boolean canConnect = currentPiece.canConnect(piece);
+		    boolean canConnect = currentPiece.canConnect(piece, true);
 
 		    if (canConnect)
 			queue.add(piece);
@@ -69,7 +69,7 @@ public class Day20 {
 	    PuzzlePiece currentPiece = puzzlePieces.get(i);
 	    for (int j = 0; j < puzzlePieces.size(); j++) {
 		if (!currentPiece.equals(puzzlePieces.get(j))) {
-		    currentPiece.canConnect(puzzlePieces.get(j));
+		    currentPiece.canConnect(puzzlePieces.get(j), true);
 		}
 	    }
 	}
