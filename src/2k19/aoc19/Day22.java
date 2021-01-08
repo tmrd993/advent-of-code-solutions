@@ -48,21 +48,21 @@ public class Day22 {
 	// steps (compose fs(x) with itself a few times) we notice that fs(x) is a
 	// geometric series
 	// that means fs(x) can be rewritten as: fs(x) = a^k + ((b*(1 - a^k)) / (1 - a))
-	// mod len
 	// mod len (formula lifted from Wikipedia:
 	// https://en.wikipedia.org/wiki/Geometric_progression#Geometric_series)
 	// that means A = a^k mod len and B = ((b*(1 - a^k)) / (1 - a)) mod len
-	// a^k mod len.
 
 	// The problem with this approach is that shuffleCount is too large
 	// for the BigInteger.pow(int exp) method. That's why the formula for B has to
 	// be simplified using modular arithmetic rules. After simplifying: A = a^k mod
-	// len and B = (b mod len) * (1 mod len - a^k mod len) mod len * (1 - a)^-1 mod len
-	// note that a division turns into multiplying with the modular inverse when dealing with modulo
+	// len and B = (b mod len) * (1 mod len - a^k mod len) mod len * (1 - a)^-1 mod
+	// len
+	// note that a division turns into multiplying with the modular inverse when
+	// dealing with modulo
 	BigInteger A = coefficients[0].modPow(shuffleCount, len);
 	BigInteger B = coefficients[1].mod(len).multiply(BigInteger.ONE.mod(len).subtract(A).mod(len)).mod(len)
 		.multiply(BigInteger.ONE.subtract(coefficients[0]).modInverse(len)).mod(len);
-	
+
 	// fs(x) = Ax + B mod len returns the index of x after len shuffles. However,
 	// part 2
 	// asks for the number at index x. If we plug x = 2020 we get a number that
