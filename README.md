@@ -59,8 +59,8 @@ Link: https://adventofcode.com/2019/
 |[Day 18](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day18.java) | Many Worlds Interpretation | [Blog Post](https://adventofcode.com/2019/day/18)|
 |[Day 19](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day19.java) | Tractor Beam | [Blog Post](https://adventofcode.com/2019/day/19)|
 |[Day 20](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day20.java) | Donut Maze | [Blog Post](https://adventofcode.com/2019/day/20)|
-|[TBD] | Springdroid Adventure | [Blog Post](https://adventofcode.com/2019/day/21)|
-|[TBD] | Slam Shuffle | [Blog Post](https://adventofcode.com/2019/day/22)|
+|[Day 21](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day21.java) | Springdroid Adventure | [Blog Post](https://adventofcode.com/2019/day/21)|
+|[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day22.java) | Slam Shuffle | [Blog Post](https://adventofcode.com/2019/day/22)|
 |[TBD] | Category Six | [Blog Post](https://adventofcode.com/2019/day/23)|
 |[TBD] | Planet of Discord | [Blog Post](https://adventofcode.com/2019/day/24)|
 |[TBD] | Cryostasis | [Blog Post](https://adventofcode.com/2019/day/25)|
