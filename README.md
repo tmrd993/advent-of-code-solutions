@@ -63,7 +63,7 @@ Link: https://adventofcode.com/2019/
 |[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day22.java) | Slam Shuffle | [Blog Post](https://adventofcode.com/2019/day/22)|
 |[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day23.java) | Category Six | [Blog Post](https://adventofcode.com/2019/day/23)|
 |[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day24.java) | Planet of Discord | [Blog Post](https://adventofcode.com/2019/day/24)|
-|[TBD] | Cryostasis | [Blog Post](https://adventofcode.com/2019/day/25)|
+|[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k19/aoc19/Day25.java) | Cryostasis | [Blog Post](https://adventofcode.com/2019/day/25)|
 
 
 # Advent-of-Code-2018
