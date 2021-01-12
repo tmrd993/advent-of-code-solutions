@@ -130,3 +130,35 @@ Link: https://adventofcode.com/2017/
 |[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day23.java) | Coprocessor Conflagration | [Blog Post](https://adventofcode.com/2017/day/23)|
 |[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day24.java) | Electromagnetic Moat | [Blog Post](https://adventofcode.com/2017/day/24)|
 |[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k17/aoc17/Day25.java) | The Halting Problem | [Blog Post](https://adventofcode.com/2017/day/25)|  
+
+# Advent-of-Code-2016
+Solutions to the Advent of Code 2016 challenge in Java    
+Link: https://adventofcode.com/2016/  
+## Days:  
+| Link to source code | Name | Link to BP |
+|---|---|---|
+|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day1.java) | No Time For A Taxi Cab |[Blog Post](https://adventofcode.com/2016/day/1) |
+|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day2.java) | Bathroom Security | [Blog Post](https://adventofcode.com/2016/day/2)|
+|[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day3.java) | Squares With Three Sides | [Blog Post](https://adventofcode.com/2016/day/3)|
+|[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day4.java) | Security Through Obscurity | [Blog Post](https://adventofcode.com/2016/day/4)|
+|[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day5.java) | How About a Nice Game of Chess? | [Blog Post](https://adventofcode.com/2016/day/5)|
+|[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day6.java) | Signals and Noise | [Blog Post](https://adventofcode.com/2016/day/6)|
+|[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day7.java) | Internet Protocol Version 7 | [Blog Post](https://adventofcode.com/2016/day/7)|
+|[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day8.java) | Two-Factor Authentication | [Blog Post](https://adventofcode.com/2016/day/8)|
+|[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day9.java) | Explosives in Cyberspace | [Blog Post](https://adventofcode.com/2016/day/9)|
+|[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day10.java) | Balance Bots | [Blog Post](https://adventofcode.com/2016/day/10)|
+|[TBD] | Radioisotope Thermoelectric Generators | [Blog Post](https://adventofcode.com/2016/day/11)|
+|[TBD] | Leonardo's Monorail | [Blog Post](https://adventofcode.com/2016/day/12)|
+|[TBD] | A Maze of Twisty Little Cubicles | [Blog Post](https://adventofcode.com/2016/day/13)|
+|[TBD] | One-Time Pad | [Blog Post](https://adventofcode.com/2016/day/14)|
+|[TBD] | Timing is Everything | [Blog Post](https://adventofcode.com/2016/day/15)|
+|[TBD] | Dragon Checksum | [Blog Post](https://adventofcode.com/2016/day/16)|
+|[TBD] | Two Steps Forward | [Blog Post](https://adventofcode.com/2016/day/17)|
+|[TBD] | Like a Rogue | [Blog Post](https://adventofcode.com/2016/day/18)|
+|[TBD] | An Elephant Named Joseph | [Blog Post](https://adventofcode.com/2016/day/19)|
+|[TBD] | Firewall Rules | [Blog Post](https://adventofcode.com/2016/day/20)|
+|[TBD] | Scrambled Letters and Hash | [Blog Post](https://adventofcode.com/2016/day/21)|
+|[TBD] | Grid Computing | [Blog Post](https://adventofcode.com/2016/day/22)|
+|[TBD] | Safe Cracking | [Blog Post](https://adventofcode.com/2016/day/23)|
+|[TBD] | Air Duct Spelunking | [Blog Post](https://adventofcode.com/2016/day/24)|
+|[TBD] | Clock Signal | [Blog Post](https://adventofcode.com/2016/day/25)|  
