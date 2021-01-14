@@ -148,8 +148,8 @@ Link: https://adventofcode.com/2016/
 |[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day9.java) | Explosives in Cyberspace | [Blog Post](https://adventofcode.com/2016/day/9)|
 |[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day10.java) | Balance Bots | [Blog Post](https://adventofcode.com/2016/day/10)|
 |[Day 11](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day11.java) | Radioisotope Thermoelectric Generators | [Blog Post](https://adventofcode.com/2016/day/11)|
-|[TBD] | Leonardo's Monorail | [Blog Post](https://adventofcode.com/2016/day/12)|
-|[TBD] | A Maze of Twisty Little Cubicles | [Blog Post](https://adventofcode.com/2016/day/13)|
+|[Day 12](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day12.java) | Leonardo's Monorail | [Blog Post](https://adventofcode.com/2016/day/12)|
+|[Day 13](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day13.java) | A Maze of Twisty Little Cubicles | [Blog Post](https://adventofcode.com/2016/day/13)|
 |[TBD] | One-Time Pad | [Blog Post](https://adventofcode.com/2016/day/14)|
 |[TBD] | Timing is Everything | [Blog Post](https://adventofcode.com/2016/day/15)|
 |[TBD] | Dragon Checksum | [Blog Post](https://adventofcode.com/2016/day/16)|
