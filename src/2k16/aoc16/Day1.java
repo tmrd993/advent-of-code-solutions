@@ -3,7 +3,6 @@ package aoc16;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
@@ -83,8 +82,5 @@ public class Day1 {
     public static void main(String[] args) {
 	Day1 test = new Day1(new File("\\C:\\Users\\Timucin\\Desktop\\Advent of code 2016\\Day 1\\InputFile1.txt"));
 	System.out.println(test.runPart2());
-	String a = "jnz c";
-	String[] b = a.split(" ");
-	Arrays.stream(b).forEach(System.out::println);
     }
 }

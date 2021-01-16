@@ -1,5 +1,7 @@
 package myutils16;
 
+import java.util.Objects;
+
 public class Pair<K, V> {
     private K k;
     private V v;
@@ -23,6 +25,31 @@ public class Pair<K, V> {
     
     public void setV(V v) {
 	this.v = v;
+    }
+    
+    @Override
+    public boolean equals(Object o) {
+	if(this == o)
+	    return true;
+	if(o == null)
+	    return false;
+	if(!(o instanceof Pair))
+	    return false;
+
+	@SuppressWarnings("unchecked")
+	Pair<K, V> tmp = (Pair<K, V>) o;
+
+	return this.k == tmp.k && this.v == tmp.v;
+    }
+
+    @Override
+    public int hashCode() {
+	return Objects.hash(k, v);
+    }
+
+    @Override
+    public String toString() {
+	return k.toString() + " " + v.toString();
     }
 
 }
