@@ -7,6 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import myutils16.StaticUtils;
+
 public class Day14 {
 
     private final String salt = "ihaygndm";
@@ -101,7 +103,7 @@ public class Day14 {
     private String md5(String toHash) {
 	try {
 	    MessageDigest md = MessageDigest.getInstance("MD5");
-	    toHash = toHexString(md.digest(toHash.getBytes()));
+	    toHash = StaticUtils.toHexString(md.digest(toHash.getBytes()));
 	} catch (NoSuchAlgorithmException e) {
 	    e.printStackTrace();
 	}
@@ -111,21 +113,12 @@ public class Day14 {
 
     private String stretchedMd5(String toHash) {
 	for (int i = 0; i < 2017; i++) {
-	    toHash = md5(toHash);
+	    toHash = StaticUtils.md5(toHash);
 	}
 	return toHash;
     }
 
-    public String toHexString(byte[] messageDigest) {
-	StringBuffer sb = new StringBuffer();
-	for (int i = 0; i < messageDigest.length; i++) {
-	    if ((0xff & messageDigest[i]) < 0x10) {
-		sb.append('0');
-	    }
-	    sb.append(Integer.toHexString(0xff & messageDigest[i]));
-	}
-	return sb.toString();
-    }
+  
 
     public static void main(String[] args) {
 	Day14 test = new Day14();

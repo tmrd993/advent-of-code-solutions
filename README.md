@@ -153,9 +153,9 @@ Link: https://adventofcode.com/2016/
 |[Day 14](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day14.java) | One-Time Pad | [Blog Post](https://adventofcode.com/2016/day/14)|
 |[Day 15](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day15.java) | Timing is Everything | [Blog Post](https://adventofcode.com/2016/day/15)|
 |[Day 16](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day16.java) | Dragon Checksum | [Blog Post](https://adventofcode.com/2016/day/16)|
-|[TBD] | Two Steps Forward | [Blog Post](https://adventofcode.com/2016/day/17)|
-|[TBD] | Like a Rogue | [Blog Post](https://adventofcode.com/2016/day/18)|
-|[TBD] | An Elephant Named Joseph | [Blog Post](https://adventofcode.com/2016/day/19)|
+|[Day 17](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day17.java) | Two Steps Forward | [Blog Post](https://adventofcode.com/2016/day/17)|
+|[Day 18](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day18.java) | Like a Rogue | [Blog Post](https://adventofcode.com/2016/day/18)|
+|[Day 19](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day19.java) | An Elephant Named Joseph | [Blog Post](https://adventofcode.com/2016/day/19)|
 |[TBD] | Firewall Rules | [Blog Post](https://adventofcode.com/2016/day/20)|
 |[TBD] | Scrambled Letters and Hash | [Blog Post](https://adventofcode.com/2016/day/21)|
 |[TBD] | Grid Computing | [Blog Post](https://adventofcode.com/2016/day/22)|
