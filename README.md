@@ -1,7 +1,10 @@
 # advent-of-code-solutions
 This repo contains all my (currently) solved Advent of Code challenges. I will update the repo with additional solutions as I go.
 
-#How-To
+# How-To
+1. Clone the repo
+2. Import it to your IDE as a maven project
+3. run the self contained classes for each day (be sure to replace the file paths for each input)
 
 # Advent-of-Code-2020
 Solutions to the Advent of Code 2020 challenge in Java    
