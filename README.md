@@ -1,6 +1,8 @@
 # advent-of-code-solutions
 This repo contains all my (currently) solved Advent of Code challenges. I will update the repo with additional solutions as I go.
 
+#How-To
+
 # Advent-of-Code-2020
 Solutions to the Advent of Code 2020 challenge in Java    
 Link: https://adventofcode.com/2020/  
