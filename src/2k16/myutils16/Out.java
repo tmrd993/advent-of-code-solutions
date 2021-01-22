@@ -1,11 +1,11 @@
 package myutils16;
 
-public class Inc implements Instruction {
+public class Out implements Instruction {
     private final int index;
     private final int[] registers;
     private final String paramA;
     
-    public Inc(int[] registers, int index, String paramA) {
+    public Out(int[] registers, int index, String paramA) {
 	this.registers = registers;
 	this.index = index;
 	this.paramA = paramA;
@@ -13,8 +13,7 @@ public class Inc implements Instruction {
 
     @Override
     public int execute() {
-	registers[indexOf(paramA.charAt(0))]++;
-	return 0;
+	return registers[indexOf(paramA.charAt(0))];
     }
 
     @Override

@@ -159,6 +159,6 @@ Link: https://adventofcode.com/2016/
 |[Day 20](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day20.java) | Firewall Rules | [Blog Post](https://adventofcode.com/2016/day/20)|
 |[Day 21](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day21.java) | Scrambled Letters and Hash | [Blog Post](https://adventofcode.com/2016/day/21)|
 |[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day22.java) | Grid Computing | [Blog Post](https://adventofcode.com/2016/day/22)|
-|[TBD] | Safe Cracking | [Blog Post](https://adventofcode.com/2016/day/23)|
-|[TBD] | Air Duct Spelunking | [Blog Post](https://adventofcode.com/2016/day/24)|
-|[TBD] | Clock Signal | [Blog Post](https://adventofcode.com/2016/day/25)|  
+|[Day 23](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day23.java) | Safe Cracking | [Blog Post](https://adventofcode.com/2016/day/23)|
+|[Day 24](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day24.java) | Air Duct Spelunking | [Blog Post](https://adventofcode.com/2016/day/24)|
+|[Day 25](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/2k16/aoc16/Day25.java) | Clock Signal | [Blog Post](https://adventofcode.com/2016/day/25)|  

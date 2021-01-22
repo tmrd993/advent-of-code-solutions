@@ -12,8 +12,9 @@ public class Dec implements Instruction {
     }
     
     @Override
-    public void execute() {
+    public int execute() {
 	registers[indexOf(paramA.charAt(0))]--;
+	return 0;
     }
 
     @Override

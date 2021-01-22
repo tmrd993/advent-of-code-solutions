@@ -15,12 +15,13 @@ public class Cpy implements Instruction {
     }
 
     @Override
-    public void execute() {
+    public int execute() {
 	if(paramA.matches("-?\\d+")) {
 	    registers[indexOf(paramB.charAt(0))] = Integer.parseInt(paramA);
 	} else {
 	    registers[indexOf(paramB.charAt(0))] = registers[indexOf(paramA.charAt(0))];
 	}
+	return 0;
     }
 
     @Override

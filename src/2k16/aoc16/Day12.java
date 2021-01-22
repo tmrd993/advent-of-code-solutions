@@ -25,7 +25,7 @@ public class Day12 {
 	}
 	
 	while(index < instructions.size()) {
-	    Instruction instruction = InstructionFactory.getInstruction(instructions.get(index), registers, index);
+	    Instruction instruction = InstructionFactory.getInstruction(instructions.get(index), registers, index, instructions);
 	    instruction.execute();
 	    index = instruction.index();
 	}
