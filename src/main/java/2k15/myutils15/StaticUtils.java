@@ -13,10 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StaticUtils {
-    /**
-     * reads the contents of a file line by line and returns the contents as a list
-     * of strings
-     */
     public static List<String> fileToStringList(File file) {
 	List<String> content = new ArrayList<>();
 	try {
@@ -85,5 +81,23 @@ public class StaticUtils {
 	    sb.append(Integer.toHexString(0xff & messageDigest[i]));
 	}
 	return sb.toString();
+    }
+    
+    public static List<String> permutations(String str) {
+	List<String> permutations = new ArrayList<>();
+	permutations(str, "", permutations);
+	return permutations;
+    }
+    
+    private static void permutations(String str, String tmp, List<String> permutations) {
+	if(str.isBlank()) {
+	    permutations.add(tmp);
+	    return;
+	}
+	
+	for(int i = 0; i < str.length(); i++) {
+	    String rest = str.substring(0, i) + str.substring(i + 1);
+	    permutations(rest, tmp + str.charAt(i), permutations);
+	}
     }
 }
