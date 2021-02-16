@@ -186,8 +186,8 @@ Link: https://adventofcode.com/2015/
 |[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day10.java) | Elves Look, Elves Say | [Blog Post](https://adventofcode.com/2015/day/10)|
 |[Day 11](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day11.java) | Corporate Policy | [Blog Post](https://adventofcode.com/2015/day/11)|
 |[Day 12](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day12.java) | JSAbacusFramework.io | [Blog Post](https://adventofcode.com/2015/day/12)|
-|[TBD] | Knights of the Dinner Table | [Blog Post](https://adventofcode.com/2015/day/13)|
-|[TBD] | Reindeer Olympics | [Blog Post](https://adventofcode.com/2015/day/14)|
+|[Day 13](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day13.java) | Knights of the Dinner Table | [Blog Post](https://adventofcode.com/2015/day/13)|
+|[Day 14](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day14.java) | Reindeer Olympics | [Blog Post](https://adventofcode.com/2015/day/14)|
 |[TBD] | Science for Hungry People | [Blog Post](https://adventofcode.com/2015/day/15)|
 |[TBD] | Aunt Sue | [Blog Post](https://adventofcode.com/2015/day/16)|
 |[TBD] | No Such Thing as Too Much | [Blog Post](https://adventofcode.com/2015/day/17)|
