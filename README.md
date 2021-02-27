@@ -191,8 +191,8 @@ Link: https://adventofcode.com/2015/
 |[Day 15](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day15.java) | Science for Hungry People | [Blog Post](https://adventofcode.com/2015/day/15)|
 |[Day 16](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day16.java) | Aunt Sue | [Blog Post](https://adventofcode.com/2015/day/16)|
 |[Day 17](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day17.java) | No Such Thing as Too Much | [Blog Post](https://adventofcode.com/2015/day/17)|
-|[TBD] | Like a GIF For Your Yard | [Blog Post](https://adventofcode.com/2015/day/18)|
-|[TBD] | Medicine for Rudolph | [Blog Post](https://adventofcode.com/2015/day/19)|
+|[Day 18](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day18.java) | Like a GIF For Your Yard | [Blog Post](https://adventofcode.com/2015/day/18)|
+|[Day 19](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day19.java) | Medicine for Rudolph | [Blog Post](https://adventofcode.com/2015/day/19)|
 |[TBD] | Infinite Elves and Infinite Houses | [Blog Post](https://adventofcode.com/2015/day/20)|
 |[TBD] | RPG Simulator 20XX | [Blog Post](https://adventofcode.com/2015/day/21)|
 |[TBD] | Wizard Simulator 20XX | [Blog Post](https://adventofcode.com/2015/day/22)|
