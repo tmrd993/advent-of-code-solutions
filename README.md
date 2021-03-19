@@ -194,8 +194,8 @@ Link: https://adventofcode.com/2015/
 |[Day 18](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day18.java) | Like a GIF For Your Yard | [Blog Post](https://adventofcode.com/2015/day/18)|
 |[Day 19](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day19.java) | Medicine for Rudolph | [Blog Post](https://adventofcode.com/2015/day/19)|
 |[Day 20](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day20.java) | Infinite Elves and Infinite Houses | [Blog Post](https://adventofcode.com/2015/day/20)|
-|[TBD] | RPG Simulator 20XX | [Blog Post](https://adventofcode.com/2015/day/21)|
-|[TBD] | Wizard Simulator 20XX | [Blog Post](https://adventofcode.com/2015/day/22)|
+|[Day 21](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day21.java) | RPG Simulator 20XX | [Blog Post](https://adventofcode.com/2015/day/21)|
+|[Day 22](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k15/aoc15/Day22.java) | Wizard Simulator 20XX | [Blog Post](https://adventofcode.com/2015/day/22)|
 |[TBD] | Opening the Turing Lock | [Blog Post](https://adventofcode.com/2015/day/23)|
 |[TBD] | It Hangs in the Balance | [Blog Post](https://adventofcode.com/2015/day/24)|
 |[TBD] | Let It Snow | [Blog Post](https://adventofcode.com/2015/day/25)|    
