@@ -1,7 +1,6 @@
 package aoc15;
 
 import java.util.List;
-import java.util.function.BooleanSupplier;
 
 import myutils15.Pair;
 
