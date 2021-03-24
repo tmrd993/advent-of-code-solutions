@@ -14,8 +14,6 @@ import myutils18.Cube;
 import myutils18.Nanobot;
 import myutils18.Point3d;
 
-// part 2 should be a general solution for all official inputs. I have tried
-// some, but not all.
 public class Day23 {
     private List<Nanobot> nanoBots;
 
