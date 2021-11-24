@@ -1,7 +1,8 @@
-package myutils20;
+package utils;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -40,40 +41,34 @@ public class StaticUtils {
 		return inputList;
 	}
 
-	public static String extractLeftSideDigits(String str) {
-		String res = "";
-		for (int i = 0; i < str.length(); i++) {
-			if (Character.isDigit(str.charAt(i))) {
-				res = res + str.charAt(i);
+	public static List<Integer> commaSeperatedIntegerFileToList(File file) {
+		List<Integer> nums = new ArrayList<>();
+		try {
+			Scanner sc = new Scanner(file);
+			sc.useDelimiter(",");
+			while (sc.hasNext()) {
+				nums.add(Integer.parseInt(sc.next()));
 			}
+			sc.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}
-		return res;
+		return nums;
 	}
 
-	public static long lcm(long a, long b) {
-
-		return (a / gcd(a, b)) * b;
-	}
-
-	// 1 4 6
-
-	public static long lcm(List<Long> n) {
-		if (n.size() < 2) {
-			return -1;
+	public static List<Long> commaSeperatedLongFileToList(File file) {
+		List<Long> nums = new ArrayList<>();
+		try {
+			Scanner sc = new Scanner(file);
+			sc.useDelimiter(",");
+			while (sc.hasNext()) {
+				nums.add(Long.parseLong(sc.next()));
+			}
+			sc.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
 		}
-
-		long res = lcm(n.get(0), n.get(1));
-		for (int i = 0; i < n.size(); i++) {
-			res = lcm(res, n.get(i));
-		}
-		return res;
-	}
-
-	public static long gcd(long a, long b) {
-		if (b == 0) {
-			return a;
-		}
-		return gcd(b, a % b);
+		return nums;
 	}
 
 }
