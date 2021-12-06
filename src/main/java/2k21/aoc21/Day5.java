@@ -3,7 +3,6 @@ package aoc21;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import utils.Point2d;
 import utils.StaticUtils;
