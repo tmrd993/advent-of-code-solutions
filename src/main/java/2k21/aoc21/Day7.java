@@ -16,8 +16,6 @@ public class Day7 {
 	}
 	
 	private int run1() {
-		
-		
 		int optimalDistance = 0;
 		
 		// optimalDistance = median
