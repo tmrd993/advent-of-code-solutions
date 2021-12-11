@@ -6,6 +6,24 @@ This repo contains all my (currently) solved Advent of Code challenges. I will u
 2. Import it to your IDE as a maven project
 3. run the self contained classes for each day (be sure to replace the file paths for each input)
 
+# Advent-of-Code-2021
+Solutions to the Advent of Code 2021 challenge in Java    
+Link: https://adventofcode.com/2021/  
+## Days:  
+| Link to source code | Name | Link to BP |
+|---|---|---|
+|[Day 1](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day1.java) | Sonar Sweep |[Blog Post](https://adventofcode.com/2021/day/1) |
+|[Day 2](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day2.java) | Dive! |[Blog Post](https://adventofcode.com/2021/day/2) |
+|[Day 3](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day3.java) | Binary Diagnostic |[Blog Post](https://adventofcode.com/2021/day/3) |
+|[Day 4](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day4.java) | Giant Squid |[Blog Post](https://adventofcode.com/2021/day/4) |
+|[Day 5](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day5.java) | Hydrothermal Venture|[Blog Post](https://adventofcode.com/2021/day/5) |
+|[Day 6](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day6.java) | Lanternfish |[Blog Post](https://adventofcode.com/2021/day/6) |
+|[Day 7](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day7.java) | The Treachery of Whales |[Blog Post](https://adventofcode.com/2021/day/7) |
+|[Day 8](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day8.java) | Seven Segment Search |[Blog Post](https://adventofcode.com/2021/day/8) |
+|[Day 9](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day9.java) | Smoke Basin |[Blog Post](https://adventofcode.com/2021/day/9) |
+|[Day 10](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day10.java) | Syntax Scoring |[Blog Post](https://adventofcode.com/2021/day/10) |
+|[Day 11](https://github.com/tmrd993/advent-of-code-solutions/blob/master/src/main/java/2k21/aoc21/Day11.java) | Dumbo Octopus |[Blog Post](https://adventofcode.com/2021/day/11) |
+
 # Advent-of-Code-2020
 Solutions to the Advent of Code 2020 challenge in Java    
 Link: https://adventofcode.com/2020/  
